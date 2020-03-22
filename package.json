@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "rimble-ui": "^0.13.1",
+    "styled-components": "^5.0.1"
+  }
+}
