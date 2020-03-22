@@ -12,6 +12,12 @@ function App() {
         Ryan is a designer and writer working on decentralized applications.
       </Heading>
       <hr />
+      <Text fontSize={5} fontWeight={1} pt={3} >
+        He currently co-leads the <Link>ConsenSys Codefi</Link> design system. Before that he helped develop <Link>Rimble</Link>, a suite of tools and resources for blockchain developers to build user-friendly products. This included designing flexible components, writing user-friendly documentation and guides and testing dozens of prototypes.
+      </Text>
+      <Text fontSize={4} fontWeight={1} pt={3} >
+        In a previous life he helped restaurants manage their business on <Link>Deliveroo</Link>. This included design for both the tablet in-restaurant and bespoke tooling such as menu creation.
+      </Text>
       <Box p={2} mt={5} borderLeft={1} borderWidth={3} borderColor="primary">
       <Heading pl={3} as={"h4"}>Design systems lead</Heading>
       <Text pl={3}>
