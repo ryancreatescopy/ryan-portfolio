@@ -3,10 +3,27 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import { BaseStyles, theme } from "rimble-ui";
+import { ThemeProvider } from "styled-components";
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+  <ThemeProvider
+  theme={Object.assign({}, theme, {
+    fonts: {
+    serif: 'athelas, georgia, times, serif',
+    sansSerif: '"Inter", -apple-system, sans-serif',
+  },
+    colors: {
+      ...theme.colors,
+      primary: '#F82495',
+  },
+})}
+>
+  <BaseStyles>
+      <App />
+    </BaseStyles>
+  </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );
