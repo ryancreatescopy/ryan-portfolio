@@ -3,20 +3,13 @@ import logo from './logo.svg';
 import './App.css';
 import { BaseStyles, theme } from "rimble-ui";
 import { ThemeProvider } from "styled-components";
-import { Box, Button, Flex, Text, Flash, Link, Heading, Image } from "rimble-ui";
+import { Box, Button, Card, Flex, Text, Flash, Link, Heading, Image } from "rimble-ui";
 import { ArrowForward } from '@rimble/icons';
-
-
-const customTheme = {
-  colors: {
-    white: '#ffffff'
-  }
-}
 
 function App() {
   return (
     <Box>
-      <Box width="100%" bg="white" position="fixed" justifyContent="center" color="white" >
+      <Box zIndex="99999" width="100%" bg="white" position="fixed" justifyContent="center" color="white" >
         <Flex justifyContent="center" pt={3} pb={3}>
         <Link
           fontSize={2}
@@ -49,9 +42,180 @@ function App() {
               Work
             </Heading>
           </Box>
-          <Flex justifyContent="center" pb={5}>
+          <Flex justifyContent="center" flexDirection="column" pb={5}>
             <Image src="/Rimble_card.png" />
+            <Box>
+              <Card style={{position: 'relative', top: '-560px', left: '563px', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} width="560px" borderRadius="8px" border={1} borderColor="#000A28" borderWidth="2px">
+                <Text
+                  fontWeight={4}
+                  fontSize="40px"
+                  pb={1}
+                >
+                  Rimble
+                </Text>
+                <Text
+                  fontSize={5}
+                  pb={4}
+                >
+                  Content strategy, product design
+                </Text>
+                <Text
+                  fontSize={2}
+                  fontWeight={3}
+                  pb="24px"
+                >
+                Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space.
+                </Text>
+                <Text
+                  fontSize={2}
+                  pb="40px"
+                >
+                  Responsible for content and UX on the team, I:
+                  <ul>
+                    <li>improved documentation through testing and creating a repeatable content structure</li>
+                    <li>prototyped and tested solutions to blockchain UX problems</li>
+                    <li>documented components and templates</li>
+                    <li>wrote long-form guides</li>
+                  </ul>
+                </Text>
+                <Button borderRadius="16px" mb={3} mainColor="#1A2233">Read case study</Button>
+                <Button.Outline mainColor="#9498F7" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble</Button.Outline>
+              </Card>
+            </Box>
           </Flex>
+
+          <Flex style={{position: 'relative', top: '-200px', left: '0', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} justifyContent="center" flexDirection="column" pb={5}>
+            <Image src="/Rimble_card.png" />
+            <Box>
+              <Card style={{position: 'relative', top: '-560px', left: '563px', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} width="560px" borderRadius="8px" border={1} borderColor="#000A28" borderWidth="2px">
+                <Text
+                  fontWeight={4}
+                  fontSize="40px"
+                  pb={1}
+                >
+                  Rimble
+                </Text>
+                <Text
+                  fontSize={5}
+                  pb={4}
+                >
+                  Content strategy, product design
+                </Text>
+                <Text
+                  fontSize={2}
+                  fontWeight={3}
+                  pb="24px"
+                >
+                Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space.
+                </Text>
+                <Text
+                  fontSize={2}
+                  pb="40px"
+                >
+                  Responsible for content and UX on the team, I:
+                  <ul>
+                    <li>improved documentation through testing and creating a repeatable content structure</li>
+                    <li>prototyped and tested solutions to blockchain UX problems</li>
+                    <li>documented components and templates</li>
+                    <li>wrote long-form guides</li>
+                  </ul>
+                </Text>
+                <Button borderRadius="16px" mb={3} mainColor="#1A2233">Read case study</Button>
+                <Button.Outline mainColor="#9498F7" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble</Button.Outline>
+              </Card>
+            </Box>
+          </Flex>
+          <Flex style={{position: 'relative', top: '-200px', left: '0', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} justifyContent="center" flexDirection="column" pb={5}>
+            <Image src="/Rimble_card.png" />
+            <Box>
+              <Card style={{position: 'relative', top: '-560px', left: '263px', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} width="560px" borderRadius="8px" border={1} borderColor="#000A28" borderWidth="2px">
+                <Text
+                  fontWeight={4}
+                  fontSize="40px"
+                  pb={1}
+                >
+                  Rimble
+                </Text>
+                <Text
+                  fontSize={5}
+                  pb={4}
+                >
+                  Content strategy, product design
+                </Text>
+                <Text
+                  fontSize={2}
+                  fontWeight={3}
+                  pb="24px"
+                >
+                Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space.
+                </Text>
+                <Text
+                  fontSize={2}
+                  pb="40px"
+                >
+                  Responsible for content and UX on the team, I:
+                  <ul>
+                    <li>improved documentation through testing and creating a repeatable content structure</li>
+                    <li>prototyped and tested solutions to blockchain UX problems</li>
+                    <li>documented components and templates</li>
+                    <li>wrote long-form guides</li>
+                  </ul>
+                </Text>
+                <Button borderRadius="16px" mb={3} mainColor="#1A2233">Read case study</Button>
+                <Button.Outline mainColor="#9498F7" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble</Button.Outline>
+              </Card>
+            </Box>
+          </Flex>
+          <Flex style={{position: 'relative', top: '-200px', left: '0', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} justifyContent="center" flexDirection="column" pb={5}>
+            <Image src="/Rimble_card.png" />
+            <Box>
+              <Card style={{position: 'relative', top: '-560px', left: '563px', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} width="560px" borderRadius="8px" border={1} borderColor="#000A28" borderWidth="2px">
+                <Text
+                  fontWeight={4}
+                  fontSize="40px"
+                  pb={1}
+                >
+                  Rimble
+                </Text>
+                <Text
+                  fontSize={5}
+                  pb={4}
+                >
+                  Content strategy, product design
+                </Text>
+                <Text
+                  fontSize={2}
+                  fontWeight={3}
+                  pb="24px"
+                >
+                Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space.
+                </Text>
+                <Text
+                  fontSize={2}
+                  pb="40px"
+                >
+                  Responsible for content and UX on the team, I:
+                  <ul>
+                    <li>improved documentation through testing and creating a repeatable content structure</li>
+                    <li>prototyped and tested solutions to blockchain UX problems</li>
+                    <li>documented components and templates</li>
+                    <li>wrote long-form guides</li>
+                  </ul>
+                </Text>
+                <Button borderRadius="16px" mb={3} mainColor="#1A2233">Read case study</Button>
+                <Button.Outline mainColor="#9498F7" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble</Button.Outline>
+              </Card>
+            </Box>
+          </Flex>
+
+
+
+
+
+
+
+
+
           <Flex justifyContent="center" pb={5}>
             <Image src="/Codefi-card.png" />
           </Flex>
