@@ -16,7 +16,8 @@ ReactDOM.render(
   },
     colors: {
       ...theme.colors,
-      primary: '#F82495',
+      primary: '#1A2233',
+      secondary: '#9498F7',
   },
 })}
 >
