@@ -6,7 +6,6 @@ import * as serviceWorker from './serviceWorker';
 import { BaseStyles, theme } from "rimble-ui";
 import { ThemeProvider } from "styled-components";
 
-
 ReactDOM.render(
   <React.StrictMode>
   <ThemeProvider
@@ -32,6 +31,7 @@ ReactDOM.render(
   </ThemeProvider>
   </React.StrictMode>,
   document.getElementById('root')
+
 );
 
 // If you want your app to work offline and load faster, you can change
