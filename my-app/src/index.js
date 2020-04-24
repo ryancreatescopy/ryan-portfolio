@@ -17,7 +17,11 @@ ReactDOM.render(
     colors: {
       ...theme.colors,
       primary: '#1A2233',
-      secondary: '#9498F7',
+      'secondaryLink': '#9498F7',
+      'secondaryHover': '#7074E5',
+      'secondaryActive': '#4F53DB',
+      text: '#1A2233',
+
   },
 })}
 >
