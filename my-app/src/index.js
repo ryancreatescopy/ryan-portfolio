@@ -6,6 +6,7 @@ import * as serviceWorker from './serviceWorker';
 import { BaseStyles, theme } from "rimble-ui";
 import { ThemeProvider } from "styled-components";
 
+
 ReactDOM.render(
   <React.StrictMode>
   <ThemeProvider

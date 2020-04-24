@@ -5,6 +5,9 @@ import { BaseStyles, theme } from "rimble-ui";
 import { ThemeProvider } from "styled-components";
 import { Box, Button, Card, Flex, Text, Flash, Link, Heading, Image } from "rimble-ui";
 import { ArrowForward } from '@rimble/icons';
+import Container from "./container";
+import Container2 from "./container2";
+import ProjectCard from "./project-card";
 
 function App() {
   return (
@@ -22,8 +25,9 @@ function App() {
         </Link>
         </Flex>
       </Box>
-      <Box px={7}>
-          <Box px={6}>
+      <Container>
+      <Box>
+          <Box>
             <Flex pt={5} justifyContent="center">
               <Image src="/portfolio-header-image.jpg" />
             </Flex>
@@ -36,202 +40,74 @@ function App() {
               <Text color="#475166" fontSize={5} pb={5}>I use words to make sure experiences solve user needs. I’m into complex problems, design systems and teaching folks how to design better content. </Text>
             </Flex>
           </Box>
+        </Box>
+        </Container>
           <hr color="#DFE0E5" />
-          <Box px={6}>
+        <Container>
+          <Box>
             <Heading as={"h2"} pt={5} pb={5} fontSize="40px">
               Work
             </Heading>
           </Box>
-          <Flex justifyContent="center" flexDirection="column" pb={5}>
-            <Image src="/Rimble_card.png" />
-            <Box>
-              <Card style={{position: 'relative', top: '-560px', left: '563px', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} width="560px" borderRadius="8px" border={1} borderColor="#000A28" borderWidth="2px">
-                <Text
-                  fontWeight={4}
-                  fontSize="40px"
-                  pb={1}
-                >
-                  Rimble
-                </Text>
-                <Text
-                  fontSize={5}
-                  pb={4}
-                >
-                  Content strategy, product design
-                </Text>
-                <Text
-                  fontSize={2}
-                  fontWeight={3}
-                  pb="24px"
-                >
-                Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space.
-                </Text>
-                <Text
-                  fontSize={2}
-                  pb="40px"
-                >
-                  Responsible for content and UX on the team, I:
-                  <ul>
-                    <li>improved documentation through testing and creating a repeatable content structure</li>
-                    <li>prototyped and tested solutions to blockchain UX problems</li>
-                    <li>documented components and templates</li>
-                    <li>wrote long-form guides</li>
-                  </ul>
-                </Text>
-                <Button borderRadius="16px" mb={3} mainColor="#1A2233">Read case study</Button>
-                <Button.Outline mainColor="#9498F7" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble</Button.Outline>
-              </Card>
-            </Box>
-          </Flex>
-
-          <Flex style={{position: 'relative', top: '-200px', left: '0', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} justifyContent="center" flexDirection="column" pb={5}>
-            <Image src="/Rimble_card.png" />
-            <Box>
-              <Card style={{position: 'relative', top: '-560px', left: '563px', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} width="560px" borderRadius="8px" border={1} borderColor="#000A28" borderWidth="2px">
-                <Text
-                  fontWeight={4}
-                  fontSize="40px"
-                  pb={1}
-                >
-                  Rimble
-                </Text>
-                <Text
-                  fontSize={5}
-                  pb={4}
-                >
-                  Content strategy, product design
-                </Text>
-                <Text
-                  fontSize={2}
-                  fontWeight={3}
-                  pb="24px"
-                >
-                Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space.
-                </Text>
-                <Text
-                  fontSize={2}
-                  pb="40px"
-                >
-                  Responsible for content and UX on the team, I:
-                  <ul>
-                    <li>improved documentation through testing and creating a repeatable content structure</li>
-                    <li>prototyped and tested solutions to blockchain UX problems</li>
-                    <li>documented components and templates</li>
-                    <li>wrote long-form guides</li>
-                  </ul>
-                </Text>
-                <Button borderRadius="16px" mb={3} mainColor="#1A2233">Read case study</Button>
-                <Button.Outline mainColor="#9498F7" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble</Button.Outline>
-              </Card>
-            </Box>
-          </Flex>
-          <Flex style={{position: 'relative', top: '-200px', left: '0', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} justifyContent="center" flexDirection="column" pb={5}>
-            <Image src="/Rimble_card.png" />
-            <Box>
-              <Card style={{position: 'relative', top: '-560px', left: '263px', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} width="560px" borderRadius="8px" border={1} borderColor="#000A28" borderWidth="2px">
-                <Text
-                  fontWeight={4}
-                  fontSize="40px"
-                  pb={1}
-                >
-                  Rimble
-                </Text>
-                <Text
-                  fontSize={5}
-                  pb={4}
-                >
-                  Content strategy, product design
-                </Text>
-                <Text
-                  fontSize={2}
-                  fontWeight={3}
-                  pb="24px"
-                >
-                Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space.
-                </Text>
-                <Text
-                  fontSize={2}
-                  pb="40px"
-                >
-                  Responsible for content and UX on the team, I:
-                  <ul>
-                    <li>improved documentation through testing and creating a repeatable content structure</li>
-                    <li>prototyped and tested solutions to blockchain UX problems</li>
-                    <li>documented components and templates</li>
-                    <li>wrote long-form guides</li>
-                  </ul>
-                </Text>
-                <Button borderRadius="16px" mb={3} mainColor="#1A2233">Read case study</Button>
-                <Button.Outline mainColor="#9498F7" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble</Button.Outline>
-              </Card>
-            </Box>
-          </Flex>
-          <Flex style={{position: 'relative', top: '-200px', left: '0', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} justifyContent="center" flexDirection="column" pb={5}>
-            <Image src="/Rimble_card.png" />
-            <Box>
-              <Card style={{position: 'relative', top: '-560px', left: '563px', right: '0', bottom: 0, justifyContent: 'center', alignItems: 'center'}} width="560px" borderRadius="8px" border={1} borderColor="#000A28" borderWidth="2px">
-                <Text
-                  fontWeight={4}
-                  fontSize="40px"
-                  pb={1}
-                >
-                  Rimble
-                </Text>
-                <Text
-                  fontSize={5}
-                  pb={4}
-                >
-                  Content strategy, product design
-                </Text>
-                <Text
-                  fontSize={2}
-                  fontWeight={3}
-                  pb="24px"
-                >
-                Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space.
-                </Text>
-                <Text
-                  fontSize={2}
-                  pb="40px"
-                >
-                  Responsible for content and UX on the team, I:
-                  <ul>
-                    <li>improved documentation through testing and creating a repeatable content structure</li>
-                    <li>prototyped and tested solutions to blockchain UX problems</li>
-                    <li>documented components and templates</li>
-                    <li>wrote long-form guides</li>
-                  </ul>
-                </Text>
-                <Button borderRadius="16px" mb={3} mainColor="#1A2233">Read case study</Button>
-                <Button.Outline mainColor="#9498F7" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble</Button.Outline>
-              </Card>
-            </Box>
-          </Flex>
-
-
-
-
-
-
-
-
-
-          <Flex justifyContent="center" pb={5}>
-            <Image src="/Codefi-card.png" />
-          </Flex>
-          <Flex justifyContent="center" pb={5}>
-            <Image src="/Deliveroo-card.png" />
-          </Flex>
-          <Flex justifyContent="center" pb={5}>
-            <Image src="/Boxt-card.png" />
-          </Flex>
+        </Container>
+        <section>
+        <Container2>
+            <ProjectCard
+              bottomPosition={[4, 0]}
+              imageSrc="/Rimble_card.png"
+              company="Rimble"
+              roles="Content strategy, product design"
+              description="Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space."
+              extendedDescription="Responsible for content and UX on the team, I:
+              <ul>
+                <li>improved documentation through testing and creating a repeatable content structure</li>
+                <li>prototyped and tested solutions to blockchain UX problems</li>
+                <li>documented components and templates</li>
+                <li>wrote long-form guides</li>
+              </ul>"
+              url="#">
+              <Button.Outline size="large" mainColor="text" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble↗</Button.Outline>
+            </ProjectCard>
+            <ProjectCard
+              topPosition={["0", "-32rem"]}
+              bottomPosition={[4, 0]}
+              imageSrc="/Codefi-card.png"
+              company="Codefi"
+              roles="Design systems, service design"
+              description="ConsenSys Codefi is a suite of decentralized finance products with varying origin stories and identities. We started the design system team to help consolidate the look and feel of these products and make design and development more efficient to help products get to market sooner."
+              extendedDescription="Working closely with other designers in the organisation, I designed and documented design tokens, components and patterns for Codefi products to use.{'<br />'}I also worked closely with stakeholders to -> get buy-in for the design system -> design our team’s processes and workflows"
+              url="#"
+            />
+            <ProjectCard
+              topPosition={["0", "-32rem"]}
+              bottomPosition={[4, 0]}
+              imageSrc="/Deliveroo-card.png"
+              company="Deliveroo"
+              roles="Content design, UX"
+              description="Deliveroo is a food delivery product that lets you deliver your favourite restaurant’s food to your door. I led content design on the restaurants team, the folks responsible for building products for the restaurant managers."
+              extendedDescription="We were tasked with creating a tool that allowed restaurants to manage their own menu content. After countless iterations, some intense design collaboration and some vital research in our European markets, we built a highly flexible product that saved restaurants time and Deliveroo millions of pounds in outsourced menu creation/editing."
+              url="#"
+            />
+            <ProjectCard
+              topPosition={["0", "-32rem"]}
+              bottomPosition={[4, "-32rem"]}
+              imageSrc="/BOXT-card.png"
+              company="BOXT"
+              roles="Content design, UX"
+              description="BOXT is a boiler delivery and installation startup that has seriously shaken up the heating industry in the UK. After the agency I worked for at the time had built their MVP, I joined the team to supercharge their sales funnel with some UX and content design improvements. "
+              extendedDescription="Working closely with UI designers and developers, I identified, tested and built several improvements to key parts of the buying flow. This increased their sales even with summer fast approaching, a usually quiet time in this particular market."
+              url="#"
+            />
+          </Container2>
+          </section>
           <hr color="#DFE0E5" />
-          <Box px={6}>
+          <Container>
+            <Box pl={["0", "56px"]}>
             <Heading as={"h2"} pt={5} pb={5} fontSize="40px">
               Interests
             </Heading>
           </Box>
-          <Box pl="72px">
+          <Box>
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
@@ -268,8 +144,10 @@ function App() {
               </Flex>
             </Flex>
           </Box>
+          </Container>
           <hr color="#DFE0E5" />
-          <Box px={6}>
+          <Container>
+          <Box pl={["0", "56px"]}>
             <Heading as={"h2"} pt={5} pb={3} fontSize="40px">
               Speaking and writing
             </Heading>
@@ -280,7 +158,7 @@ function App() {
               Speaking
             </Heading>
           </Box>
-          <Box pl="72px" pb={5}>
+          <Box pb={5}>
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
@@ -353,7 +231,7 @@ function App() {
               </Flex>
             </Flex>
           </Box>
-          <Box px={6}>
+          <Box pl={["0", "56px"]}>
             <Heading as={"h3"} pb={5} fontSize={5}>
               Writing
             </Heading>
@@ -361,7 +239,7 @@ function App() {
               Blockchain
             </Heading>
           </Box>
-          <Box pl="72px">
+          <Box>
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
@@ -400,12 +278,12 @@ function App() {
               </Flex>
             </Flex>
           </Box>
-          <Box px={6}>
+          <Box pl={["0", "56px"]}>
             <Heading as={"h4"} color="#475166" fontWeight={2} pb={5} fontSize={5}>
               Content design
             </Heading>
           </Box>
-          <Box pl="72px">
+          <Box>
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
@@ -516,8 +394,10 @@ function App() {
               </Flex>
             </Flex>
           </Box>
+          </Container>
           <hr color="#DFE0E5" />
-          <Box px={[2, 6]}>
+          <Container>
+            <Box pl={["0", "56px"]}>
             <Heading as={"h2"} pt={5} pb={3} fontSize="40px">
               Tools
             </Heading>
@@ -525,7 +405,7 @@ function App() {
               I’ve found in my work as a content designer that I’ve had to get comfortable or even proficient in software that my design and engineering teammates use.
             </Text>
           </Box>
-          <Box pl="72px">
+          <Box>
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
@@ -562,18 +442,19 @@ function App() {
               </Flex>
             </Flex>
           </Box>
-        </Box>
+        </Container>
+
       <Box px={0} bg="#FBFBFC">
-        <Box px={7}>
-          <Box px={6}>
-            <Heading as={"h2"} pt={5} pb={3} fontSize="40px">
-              Get in touch
-            </Heading>
-            <Text fontSize={4} pb={5}>
-              If you have a role in mind, reach out and we can chat content design until we’re blue in the face*.
-            </Text>
-          </Box>
-          <Box pl="72px" pb={2}>
+        <Container>
+            <Box pl={["0", "56px"]}>
+              <Heading as={"h2"} pt={5} pb={3} fontSize="40px">
+                Get in touch
+              </Heading>
+              <Text fontSize={4} pb={5}>
+                If you have a role in mind, reach out and we can chat content design until we’re blue in the face*.
+              </Text>
+            </Box>
+          <Box pb={2}>
               <Flex>
                 <ArrowForward color="#777C8C" size="40px" mr={3}/>
                 <Flex justifyContent="center" flexDirection="column" pb="40px">
@@ -629,12 +510,12 @@ function App() {
                 </Flex>
               </Flex>
             </Box>
-            <Box px={6} pb={5}>
+            <Box pl={["0", "56px"]} pb={5}>
               <Text>*Other topics I’d be willing to talk about until we’re blue in the face: Waynes World, Philadelphia Eagles, Weezer’s Blue album, Tottenham Hotspur... </Text>
-          </Box>
+            </Box>
+          </Container>
         </Box>
-    </Box>
-  </Box>
+      </Box>
   );
 }
 
