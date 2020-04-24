@@ -65,8 +65,8 @@ function App() {
                 <li>documented components and templates</li>
                 <li>wrote long-form guides</li>
               </ul>"
-              url="/rimble-cs.js">
-              <Button.Outline size="large" as="a" href="https://rimble.consensys.design" mainColor="text" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble↗</Button.Outline>
+              url="#">
+              <Button.Outline size="large" mainColor="text" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble↗</Button.Outline>
             </ProjectCard>
             <ProjectCard
               topPosition={["0", "-32rem"]}
