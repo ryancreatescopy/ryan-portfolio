@@ -13,7 +13,7 @@ import {
   Route,
 } from "react-router-dom";
 
-const RimbleCS = () => {
+const BoxtCS = () => {
   return (
     <Box>
       <Box zIndex="99999" width="100%" bg="white" position="fixed" justifyContent="center" color="white" >
@@ -30,12 +30,12 @@ const RimbleCS = () => {
         </Flex>
 
       </Box>
-      <Image width="100%" src="/rimble-header-cs.png" />
+      <Image width="100%" src="./boxt-banner.png" />
       <Container>
           <Box>
             <Flex justifyContent="center">
               <Heading color="#1A2233" as={"h1"} fontSize={7} pt={5} pb={3}>
-                Making good blockchain UX easier with Rimble
+                Using UX to shift more boilers for BOXT
               </Heading>
             </Flex>
             <Flex justifyContent="center">
@@ -47,4 +47,4 @@ const RimbleCS = () => {
   )
 };
 
-export default RimbleCS;
+export default BoxtCS;

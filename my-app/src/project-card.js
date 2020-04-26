@@ -2,7 +2,7 @@ import React from "react";
 import { Box, Flex, Text, Image, Button, Card } from "rimble-ui";
 import { ArrowForward } from '@rimble/icons';
 
-const ProjectCard = ({ company, roles, description, extendedDescription, url, children, imageSrc, topPosition, bottomPosition }) => {
+const ProjectCard = ({ company, roles, description, extendedDescription, children, imageSrc, topPosition, bottomPosition }) => {
   return (
     <Flex
       justifyContent="center"
@@ -53,7 +53,6 @@ const ProjectCard = ({ company, roles, description, extendedDescription, url, ch
           >
             {extendedDescription}
           </Text>
-          <Button size="large" as="a" href={url} borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study <ArrowForward color="#9498F7" size="24px" /></Button>
           {children}
       </Card>
     </Flex>
