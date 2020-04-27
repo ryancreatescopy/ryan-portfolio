@@ -185,23 +185,6 @@ const DeliverooCS = () => {
                   href="https://medium.com/deliveroo-design/4-reasons-we-love-figma-at-deliveroo-7a6db84b5239"
                   target="_blank"
                 >we loved using Figma↗</RimbleLink></Caption>
-              </Flex>
-            </Flex>
-            <Flex>
-              <ArrowForward color="#777C8C" size="40px" mr={3}/>
-              <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>First time in Figma</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
-                  We took our conversation script and turned that into screens in Figma using the Delivero design system. The product designer and I riffed on the design a lot in Figma. It was Deliveroo’s first project to use Figma and we were massively enjoying the collaborative benefits.
-                </Text>
-                <Image mt="40px" src="/cs-images/Figma.gif" />
-                <Caption>Us playing around in Figma. We even wrote an article on how much it helped us on this project and all the ways <RimbleLink
-                  fontSize="16px"
-                  fontWeight={2}
-                  color="#4F53DB"
-                  href="https://medium.com/deliveroo-design/4-reasons-we-love-figma-at-deliveroo-7a6db84b5239"
-                  target="_blank"
-                >we loved using Figma↗</RimbleLink></Caption>
                 <Image mt="40px" src="/cs-images/menus-mvp.png" />
                 <Caption>The MVP of the menu tool.</Caption>
               </Flex>
