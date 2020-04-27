@@ -19,6 +19,7 @@ import CodefiCS from "./codefi-cs"
 import DeliverooCS from "./deliveroo-cs"
 import BoxtCS from "./boxt-cs"
 import RimbleLink from "./RimbleLink"
+import Contact from "./contact"
 
 const App = () => {
   return (
@@ -26,24 +27,32 @@ const App = () => {
       <Switch>
         <Route exact path='/'>
         <Box>
-          <Box zIndex="99999" width="100%" bg="white" position="fixed" justifyContent="center" color="white" >
-            <Flex justifyContent="center" pt={3} pb={3}>
-            <RimbleLink
-              fontSize={2}
-              fontWeight={3}
-              color="#9498F7"
-              activeColor="secondaryActive"
-              hoverColor="secondaryHover"
-            >
-              Get in touch
-            </RimbleLink>
+          <Box borderBottom={1} borderWidth="1px" borderColor="#F8F8F9"width="100%" zIndex="99999" bg="white" position="fixed" color="white" >
+            <Flex alignItems="center" justifyContent="space-between" width="100%" py={4}>
+              <Flex alignItems="center">
+                <Text ml={4} color="text">
+                👋 <strong>Ryan Cordell</strong>, Lead Content Designer
+                </Text>
+              </Flex>
+              <Flex>
+                <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/contact">
+                  <RimbleLink
+                    fontSize={2}
+                    fontWeight={2}
+                    color="#4F53DB"
+                    mr={4}
+                  >
+                    Get in touch
+                  </RimbleLink>
+                </Link>
+              </Flex>
             </Flex>
           </Box>
           <Container>
           <Box>
               <Box>
                 <Flex pt={5} justifyContent="center">
-                  <Image src="/portfolio-header-image.jpg" />
+                  <Image mt={5} src="/portfolio-header-image.jpg" />
                 </Flex>
                 <Flex justifyContent="center">
                   <Heading color="#1A2233" as={"h1"} fontSize={7} pt={5} pb={3}>
@@ -72,13 +81,20 @@ const App = () => {
                   company="Rimble"
                   roles="Content strategy, product design"
                   description="Rimble is an open-source library of components, guides and templates for designers and FE developers in the Ethereum space."
-                  extendedDescription="Responsible for content and UX on the team, I:
+                >
+                  <Text
+                    mt="-24px"
+                    fontSize={2}
+                    pb="40px"
+                  >
+                  Responsible for content and UX on the team, I:
                   <ul>
                     <li>improved documentation through testing and creating a repeatable content structure</li>
                     <li>prototyped and tested solutions to blockchain UX problems</li>
                     <li>documented components and templates</li>
                     <li>wrote long-form guides</li>
-                  </ul>">
+                  </ul>
+                  </Text>
                   <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/RimbleCS"><Button size="large" borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study <ArrowForward color="#9498F7" size="24px" /></Button></Link>
                   <Button.Outline size="large" as="a" href="https://rimble.consensys.design" mainColor="text" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble↗</Button.Outline>
                 </ProjectCard>
@@ -89,7 +105,17 @@ const App = () => {
                   company="Codefi"
                   roles="Design systems, service design"
                   description="ConsenSys Codefi is a suite of decentralized finance products with varying origin stories and identities. We started the design system team to help consolidate the look and feel of these products and make design and development more efficient to help products get to market sooner."
-                  extendedDescription="Working closely with other designers in the organisation, I designed and documented design tokens, components and patterns for Codefi products to use.{'<br />'}I also worked closely with stakeholders to -> get buy-in for the design system -> design our team’s processes and workflows">
+                  extendedDescription="Working closely with other designers in the organisation, I designed and documented design tokens, components and patterns for Codefi products to use. I also worked closely with stakeholders to:">
+                  <Text
+                    mt="-24px"
+                    fontSize={2}
+                    pb="40px"
+                  >
+                  <ul>
+                    <li>get buy-in for the design system </li>
+                    <li>design our team’s processes and workflows</li>
+                  </ul>
+                  </Text>
                   <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/CodefiCS"><Button size="large" borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study <ArrowForward color="#9498F7" size="24px" /></Button></Link>
                 </ProjectCard>
                 <ProjectCard
@@ -180,9 +206,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://www.figma.com/proto/3Ke9nkwhyYbBxHfkin5iT0/Devcon-V-Conversational-design-workshop?node-id=17%3A0&viewport=281%2C212%2C0.05299120396375656&scaling=min-zoom"
                       target="_blank"
                       mb={2}
@@ -200,9 +224,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://www.figma.com/proto/dk6DlwfvXW4svJXPoH7m6e/Devcon-V-The-state-of-transaction-states?node-id=351%3A1&viewport=-23%2C418%2C0.015625&scaling=min-zoom"
                       target="_blank"
                       mb={2}
@@ -233,9 +255,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://www.youtube.com/watch?v=mfibksrWu_U"
                       target="_blank"
                       mb={2}
@@ -262,9 +282,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://kauri.io/writing-for-blockchain-wallet-signature-request-me/e46374ec0fbd4403ae9ea351580caa4d/a"
                       target="_blank"
                        mb={2}
@@ -280,9 +298,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://media.consensys.net/what-ethereum-should-learn-from-libra-a-content-perspective-63428ab5ccef"
                       target="_blank"
                       mb={2}
@@ -306,9 +322,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://medium.com/deliveroo-design/content-design-systems-need-you-82836afb4fe6?source=---------6-----------------"
                       target="_blank"
                        mb={2}
@@ -324,9 +338,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://medium.com/figma-design/how-to-do-content-design-ux-writing-in-figma-d0e0ee77661e?source=---------7------------------"
                       target="_blank"
                       mb={2}
@@ -342,9 +354,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://medium.com/deliveroo-design/4-reasons-we-love-figma-at-deliveroo-7a6db84b5239?source=---------8------------------"
                       target="_blank"
                       mb={2}
@@ -360,9 +370,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://uxdesign.cc/3-communication-theories-that-will-help-you-write-better-microcopy-and-make-better-products-4df25571ca6f?source=---------9------------------"
                       target="_blank"
                       mb={2}
@@ -378,9 +386,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://medium.com/swlh/my-6-point-microcopy-checklist-for-non-ux-writers-634eb52b29c9?source=---------11------------------"
                       target="_blank"
                       mb={2}
@@ -396,9 +402,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
-                      color="#9498F7"
-                      activeColor="secondaryActive"
-                      hoverColor="secondaryHover"
+                      color="#4F53DB"
                       href="https://uxplanet.org/ux-writing-and-the-customer-experience-wont-somebody-please-think-of-the-words-f7cdefa3793a?source=---------12------------------"
                       target="_blank"
                       mb={2}
@@ -477,9 +481,7 @@ const App = () => {
                         lineHeight={1}
                         fontSize="40px"
                         fontWeight={2}
-                        color="#9498F7"
-                        activeColor="secondaryActive"
-                        hoverColor="secondaryHover"
+                        color="#4F53DB"
                         href="https://twitter.com/ryancreatescopy"
                         target="_blank"
                          mb={2}
@@ -495,9 +497,7 @@ const App = () => {
                         lineHeight={1}
                         fontSize="40px"
                         fontWeight={2}
-                        color="#9498F7"
-                        activeColor="secondaryActive"
-                        hoverColor="secondaryHover"
+                        color="#4F53DB"
                         href="mailto:ryancordell92@gmail.com"
                         target="_blank"
                         mb={2}
@@ -513,14 +513,12 @@ const App = () => {
                         lineHeight={1}
                         fontSize="40px"
                         fontWeight={2}
-                        color="#9498F7"
-                        activeColor="secondaryActive"
-                        hoverColor="secondaryHover"
-                        href="https://www.RimbleLinkedin.com/in/ryancordell1/"
+                        color="#4F53DB"
+                        href="https://www.Linkedin.com/in/ryancordell1/"
                         target="_blank"
                         mb={2}
                       >
-                        RimbleLinkedIn↗
+                        LinkedIn↗
                       </RimbleLink>
                     </Flex>
                   </Flex>
@@ -534,6 +532,9 @@ const App = () => {
         </Route>
         <Route path="/RimbleCS">
           <RimbleCS />
+        </Route>
+        <Route path="/Contact">
+          <Contact />
         </Route>
         <Route path="/CodefiCS">
           <CodefiCS />

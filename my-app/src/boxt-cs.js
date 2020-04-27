@@ -22,6 +22,7 @@ import DeliverooCS from "./deliveroo-cs"
 import Label from "./cs-components/label"
 import Caption from "./cs-components/caption"
 import Images from "./cs-components/images"
+import Contact from "./contact"
 
 const BoxtCS = () => {
   return (
@@ -43,6 +44,7 @@ const BoxtCS = () => {
         </Link>
         </Flex>
         <Flex>
+        <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/contact">
         <RimbleLink
           fontSize={2}
           fontWeight={2}
@@ -51,6 +53,7 @@ const BoxtCS = () => {
         >
           Get in touch
         </RimbleLink>
+        </Link>
         </Flex>
         </Flex>
         <Box display={["block", "block", "block", "none"]} alignItems="center">
@@ -220,6 +223,9 @@ const BoxtCS = () => {
   </Route>
   <Route path="/DeliverooCS">
     <DeliverooCS />
+  </Route>
+  <Route path="/Contact">
+    <Contact />
   </Route>
   </Switch>
   </Router>
