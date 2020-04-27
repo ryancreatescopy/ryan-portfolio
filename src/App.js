@@ -51,7 +51,7 @@ const App = () => {
           <Container>
           <Box>
               <Box pt={5}>
-                  <Image mt={5} src="/portfolio-header-image.jpg" />
+                  <Image mt={[6, 5]} src="/portfolio-header-image.jpg" />
                 <Flex justifyContent="center">
                   <Heading color="#1A2233" as={"h1"} fontSize={7} pt={5} pb={3}>
                     Hi I’m Ryan, content designer and doer
