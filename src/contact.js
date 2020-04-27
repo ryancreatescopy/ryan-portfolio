@@ -70,6 +70,7 @@ const Contact = () => {
                         color="#4F53DB"
                         href="https://twitter.com/ryancreatescopy"
                         target="_blank"
+                        as="a"
                          mb={2}
                       >
                         @ryancreatescopy↗
@@ -87,6 +88,7 @@ const Contact = () => {
                         href="mailto:ryancordell92@gmail.com"
                         target="_blank"
                         mb={2}
+                        as="a"
                       >
                         ryancordell92@gmail.com↗
                       </RimbleLink>
@@ -103,6 +105,7 @@ const Contact = () => {
                         href="https://www.Linkedin.com/in/ryancordell1/"
                         target="_blank"
                         mb={2}
+                        as="a"
                       >
                         LinkedIn↗
                       </RimbleLink>
