@@ -70,7 +70,7 @@ const CodefiCS = () => {
           <Flex>
             <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/RimbleCS"><Button.Outline icon="ArrowBack" mainColor="text" borderRadius="8px" border={1} borderWidth="2px" borderColor="#9498F7" size="small" mx={[4, 4, "64px"]}>Previous</Button.Outline></Link>
           </Flex>
-        <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/RimbleCS"><Button.Outline icon="ArrowForward" iconpos="right" mainColor="text" borderRadius="8px" border={1} borderWidth="2px" borderColor="#9498F7" size="small" mx={[4, 4, "64px"]}>Next</Button.Outline></Link>
+        <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/DeliverooCS"><Button.Outline icon="ArrowForward" iconpos="right" mainColor="text" borderRadius="8px" border={1} borderWidth="2px" borderColor="#9498F7" size="small" mx={[4, 4, "64px"]}>Next</Button.Outline></Link>
         </Flex>
       </Box>
       <Container>
@@ -109,12 +109,14 @@ const CodefiCS = () => {
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
                 <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Pick a project</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">We knew adoption wouldn’t be wholesale straight away so we picked a product to target. With a product in mind we could focus our efforts and prioritise components accordingly based on the product’s needs. After doing a component inventory and some design exploration myself for this product, I ran a workshop where our design system team and the product team prioritised components based on frequency and complexity to form our backlog.</Text>
-              </Flex>
+                <Text fontSize="24px" mt="24px" color="#1A2233">
+                  We knew adoption wouldn’t be wholesale straight away so we picked a product to target. With a product in mind we could focus our efforts and prioritise components accordingly based on the product’s needs. After doing a component inventory and some design exploration myself for this product, I ran a workshop where our design system team and the product team prioritised components based on frequency and complexity to form our backlog.
+                </Text>
+                <Images src="/cs-images/codefi-product-visual-inventory.png" src2="/cs-images/codefi-product-visual-inventory-2.png" />
+                <Image mt="40px" src="/cs-images/prioritisation-workshop-mural.png" />
+                <Caption>A remote prioritisation workshop: aligning us on priorities based on component needs.</Caption>
             </Flex>
-            <Images src="/cs-images/codefi-product-visual-inventory.png" src2="/cs-images/codefi-product-visual-inventory-2.png" />
-            <Image mt="40px" src="/cs-images/prioritisation-workshop-mural.png" />
-            <Caption>A remote prioritisation workshop: aligning us on priorities based on component needs.</Caption>
+            </Flex>
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
@@ -128,21 +130,21 @@ const CodefiCS = () => {
                 <Text fontSize="24px" mt="40px" color="#1A2233">
                   Together, we designed a large range of components from simple buttons and inputs all the way through to more complex components for Ethereum addresses and accordions.
                 </Text>
+                <Image mt="40px" src="/cs-images/figma-directory.png" />
+                <Caption>I put together this directory to help the team understand component coverage and progress.</Caption>
+                <Box bg="#FBFBFC" p="24px" mb="40px">
+                  <Images src="/cs-images/eth-address-component.png" src2="/cs-images/eth-address-component-2.png" />
+                </Box>
+                <Box bg="#FBFBFC" p="24px" mb="32px">
+                  <Images src="/cs-images/flash-component.png" src2="/cs-images/accordion-component.png" />
+                </Box>
+                <Box ml="56px" mb="40px">
+                <Text fontSize="24px" mt="24px" color="#1A2233">
+                  Having a content designer in this process from the very beginning meant components were being designed with the ideal content they’d hold in mind.
+                </Text>
+                </Box>
               </Flex>
             </Flex>
-            <Image mt="40px" src="/cs-images/figma-directory.png" />
-            <Caption>I put together this directory to help the team understand component coverage and progress.</Caption>
-            <Box bg="#FBFBFC" p="24px" mb="40px">
-              <Images src="/cs-images/eth-address-component.png" src2="/cs-images/eth-address-component-2.png" />
-            </Box>
-            <Box bg="#FBFBFC" p="24px" mb="32px">
-              <Images src="/cs-images/flash-component.png" src2="/cs-images/accordion-component.png" />
-            </Box>
-            <Box ml="56px" mb="40px">
-            <Text fontSize="24px" mt="24px" color="#1A2233">
-              Having a content designer in this process from the very beginning meant components were being designed with the ideal content they’d hold in mind.
-            </Text>
-            </Box>
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
@@ -229,26 +231,25 @@ const CodefiCS = () => {
           fontSize="24px"
           color="text"
           mb={6}
-
         >
           Some teams in Codefi didn’t know what a design system was or why they should use one. So I wanted to make sure that I put the time in to educate folks and sell the benefits.
         </Text>
         <Label color="#FA9476" label="WHAT WE DID" />
+
         <Box mt={5} ml={["0", "-56px"]}>
           <Flex>
             <ArrowForward color="#777C8C" size="40px" mr={3}/>
             <Flex justifyContent="center" flexDirection="column">
               <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Sell, sell, sell</Text>
               <Text fontSize="24px" mt="24px" color="#1A2233">My main strategy for selling the design system was explaining how it laddered up to the organisation’s main objectives. By framing it in business rationale, it was hard to argue with. </Text>
+              <Image mt="24px" src="/cs-images/design-system-business-rationale.png" />
+              <Image mt="24px" src="/cs-images/design-system-business-rationale-annotated.png" />
+              <Text fontSize="24px" mt="40px" color="#1A2233">
+                In other words, investing in the design system was a way for us all to hit our goals.
+              </Text>
             </Flex>
           </Flex>
-          <Image mt="24px" src="/cs-images/design-system-business-rationale.png" />
-          <Image mt="24px" src="/cs-images/design-system-business-rationale-annotated.png" />
-          <Box mt={5} ml="56px">
-            <Text fontSize="24px" mt="24px" color="#1A2233">In other words, investing in the design system was a way for us all to hit our goals.
-            </Text>
-          </Box>
-          </Box>
+        </Box>
           <Box mt={5} ml={["0", "-56px"]}>
           <Flex>
             <ArrowForward color="#777C8C" size="40px" mr={3}/>
@@ -260,14 +261,14 @@ const CodefiCS = () => {
               <Text fontSize="24px" mt="40px" color="#1A2233">
                 I put a lot of time into designing how this could work and answering the above questions. Unfortunately this never got the chance to be properly battle-hardened.
               </Text>
+              <Image mt="40px" src="/cs-images/design-system-service-design.png" />
+              <Caption>Apologies for the tiny font. This diagram goes into more detail about how we feed our backlog, manage contributions and review/publish work.</Caption>
+              <Image src="/cs-images/design-system-iteration.png" />
+              <Caption>A diagram explaining how the design system team’s work feeds into other product team’s work and how we absorb the learnings and iterate.</Caption>
+              <Image src="/cs-images/design-system-architecture.png" />
+              <Caption>Showing how it all worked in Figma: master styles feed into master components which are documented and published as usable components by designers.</Caption>
             </Flex>
           </Flex>
-          <Image mt="40px" src="/cs-images/design-system-service-design.png" />
-          <Caption>Apologies for the tiny font. This diagram goes into more detail about how we feed our backlog, manage contributions and review/publish work.</Caption>
-          <Image src="/cs-images/design-system-iteration.png" />
-          <Caption>A diagram explaining how the design system team’s work feeds into other product team’s work and how we absorb the learnings and iterate.</Caption>
-          <Image src="/cs-images/design-system-architecture.png" />
-          <Caption>Showing how it all worked in Figma: master styles feed into master components which are documented and published as usable components by designers.</Caption>
         </Box>
         <Box mt="128px">
           <Label color="#E57AB0" label="LESSON" />
