@@ -208,7 +208,7 @@ const BoxtCS = () => {
         </Box>
           <hr color="#DFE0E5" />
           <Box textAlign="center" p="32px" mb={["80px", "80px", "80px", "0"]}>
-            <RimbleLink color="#4F53DB" href="#top">Back to top 👆</RimbleLink>
+            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top 👆</RimbleLink>
           </Box>
         </Box>
   </Route>

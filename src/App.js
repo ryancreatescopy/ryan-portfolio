@@ -204,13 +204,14 @@ const App = () => {
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
                     <RimbleLink
                       lineHeight={1}
+                      as="a"
                       fontSize="40px"
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://www.figma.com/proto/3Ke9nkwhyYbBxHfkin5iT0/Devcon-V-Conversational-design-workshop?node-id=17%3A0&viewport=281%2C212%2C0.05299120396375656&scaling=min-zoom"
                       target="_blank"
                       mb={2}
-                      style={{ color: 'inherit', textDecoration: 'inherit'}}
+
                     >
                       Design better dApps with conversation↗
                     </RimbleLink>
@@ -224,6 +225,7 @@ const App = () => {
                       lineHeight={1}
                       fontSize="40px"
                       fontWeight={2}
+                      as="a"
                       color="#4F53DB"
                       href="https://www.figma.com/proto/dk6DlwfvXW4svJXPoH7m6e/Devcon-V-The-state-of-transaction-states?node-id=351%3A1&viewport=-23%2C418%2C0.015625&scaling=min-zoom"
                       target="_blank"
@@ -256,6 +258,7 @@ const App = () => {
                       fontSize="40px"
                       fontWeight={2}
                       color="#4F53DB"
+                      as="a"
                       href="https://www.youtube.com/watch?v=mfibksrWu_U"
                       target="_blank"
                       mb={2}
@@ -285,9 +288,10 @@ const App = () => {
                       color="#4F53DB"
                       href="https://kauri.io/writing-for-blockchain-wallet-signature-request-me/e46374ec0fbd4403ae9ea351580caa4d/a"
                       target="_blank"
+                      as="a"
                        mb={2}
                     >
-                      Writing wallet signature request s↗
+                      Writing wallet signature requests↗
                     </RimbleLink>
                   </Flex>
                 </Flex>
@@ -301,6 +305,7 @@ const App = () => {
                       color="#4F53DB"
                       href="https://media.consensys.net/what-ethereum-should-learn-from-libra-a-content-perspective-63428ab5ccef"
                       target="_blank"
+                      as="a"
                       mb={2}
                       pb={5}
                     >
@@ -324,6 +329,7 @@ const App = () => {
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://medium.com/deliveroo-design/content-design-systems-need-you-82836afb4fe6?source=---------6-----------------"
+                      as="a"
                       target="_blank"
                        mb={2}
                     >
@@ -340,6 +346,7 @@ const App = () => {
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://medium.com/figma-design/how-to-do-content-design-ux-writing-in-figma-d0e0ee77661e?source=---------7------------------"
+                      as="a"
                       target="_blank"
                       mb={2}
                     >
@@ -357,6 +364,7 @@ const App = () => {
                       color="#4F53DB"
                       href="https://medium.com/deliveroo-design/4-reasons-we-love-figma-at-deliveroo-7a6db84b5239?source=---------8------------------"
                       target="_blank"
+                      as="a"
                       mb={2}
                     >
                       4 reasons we love Figma at Deliveroo↗
@@ -373,6 +381,7 @@ const App = () => {
                       color="#4F53DB"
                       href="https://uxdesign.cc/3-communication-theories-that-will-help-you-write-better-microcopy-and-make-better-products-4df25571ca6f?source=---------9------------------"
                       target="_blank"
+                      as="a"
                       mb={2}
                     >
                       3 communication theories that will help you write better microcopy (and make better products)↗
@@ -389,6 +398,7 @@ const App = () => {
                       color="#4F53DB"
                       href="https://medium.com/swlh/my-6-point-microcopy-checklist-for-non-ux-writers-634eb52b29c9?source=---------11------------------"
                       target="_blank"
+                      as="a"
                       mb={2}
                     >
                       My 6-point microcopy checklist for non-UX writers↗
@@ -405,6 +415,7 @@ const App = () => {
                       color="#4F53DB"
                       href="https://uxplanet.org/ux-writing-and-the-customer-experience-wont-somebody-please-think-of-the-words-f7cdefa3793a?source=---------12------------------"
                       target="_blank"
+                      as="a"
                       mb={2}
                       pb={5}
                     >
@@ -484,6 +495,7 @@ const App = () => {
                         color="#4F53DB"
                         href="https://twitter.com/ryancreatescopy"
                         target="_blank"
+                        as="a"
                          mb={2}
                       >
                         @ryancreatescopy↗
@@ -499,6 +511,7 @@ const App = () => {
                         fontWeight={2}
                         color="#4F53DB"
                         href="mailto:ryancordell92@gmail.com"
+                        as="a"
                         target="_blank"
                         mb={2}
                       >
@@ -515,6 +528,7 @@ const App = () => {
                         fontWeight={2}
                         color="#4F53DB"
                         href="https://www.Linkedin.com/in/ryancordell1/"
+                        as="a"
                         target="_blank"
                         mb={2}
                       >

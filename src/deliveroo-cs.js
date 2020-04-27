@@ -136,12 +136,13 @@ const DeliverooCS = () => {
                 </Text>
                 <Image mt="40px" src="/cs-images/design-doc.gif" />
                 <Text fontSize="24px" mt="40px" color="#1A2233">
-                  If you want to know more, Deliveroo’s design team wrote about{''}
+                  If you want to know more, Deliveroo’s design team wrote about {''}
                   <RimbleLink
                     fontSize="24px"
                     fontWeight={2}
                     color="#4F53DB"
                     href="https://medium.com/deliveroo-design/the-power-of-the-design-doc-fbf5070163f8"
+                    as="a"
                   >
                       the power of design docs↗
                     </RimbleLink>
@@ -159,13 +160,14 @@ const DeliverooCS = () => {
                   The designer pretended to be Deliveroo while I played the part of the restaurant. It helped us to identify some important content for the first iterations of the product and remove Deliveroo jargon in the process.
                 </Text>
                 <Text fontSize="24px" mt="40px" color="#1A2233">
-                  I explain this in more detail in my{''}
+                  I explain this in more detail in my {''}
                   <RimbleLink
                     fontSize="24px"
                     fontWeight={2}
                     color="#4F53DB"
                     href="https://rimble.consensys.design/guides/content/conversational-design"
                     target="_blank"
+                    as="a"
                   >
                        conversational design guide↗
                     </RimbleLink>
@@ -249,7 +251,7 @@ const DeliverooCS = () => {
         </Box>
           <hr color="#DFE0E5" />
           <Box textAlign="center" p="32px" mb={["80px", "80px", "80px", "0"]}>
-            <RimbleLink color="#4F53DB" href="#top">Back to top 👆</RimbleLink>
+            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top 👆</RimbleLink>
           </Box>
         </Box>
   </Route>
