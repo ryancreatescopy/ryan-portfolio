@@ -48,8 +48,8 @@ const Contact = () => {
           <Container>
           <Box>
               <Box>
-                <Flex pt={5} justifyContent="center">
-                  <Image mt={5} width="auto" src="/get-in-touch.png" />
+                <Flex pt={5}>
+                  <Image mt={5} src="/get-in-touch.png" />
                 </Flex>
               </Box>
             </Box>
