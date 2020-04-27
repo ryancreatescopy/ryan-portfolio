@@ -49,7 +49,7 @@ const Contact = () => {
           <Box>
               <Box>
                 <Flex pt={5} justifyContent="center">
-                  <Image mt={5} src="/get-in-touch.png" />
+                  <Image mt={5} width="auto" src="/get-in-touch.png" />
                 </Flex>
               </Box>
             </Box>

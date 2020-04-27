@@ -28,9 +28,9 @@ const App = () => {
         <Route exact path='/'>
         <Box>
           <Box borderBottom={1} borderWidth="1px" borderColor="#F8F8F9"width="100%" zIndex="99999" bg="white" position="fixed" color="white" >
-            <Flex alignItems="center" justifyContent="space-between" width="100%" py={4}>
+            <Flex alignItems="center" justifyContent="space-between" flexDirection={["column", "row"]} width="100%" py={4}>
               <Flex alignItems="center">
-                <Text ml={4} color="text">
+                <Text ml={[0, 4]} mb={[2, 0]} color="text">
                 👋 <strong>Ryan Cordell</strong>, Lead Content Designer
                 </Text>
               </Flex>
@@ -52,7 +52,7 @@ const App = () => {
           <Box>
               <Box>
                 <Flex pt={5} justifyContent="center">
-                  <Image mt={5} src="/portfolio-header-image.jpg" />
+                  <Image mt={5} width="auto" src="/portfolio-header-image.jpg" />
                 </Flex>
                 <Flex justifyContent="center">
                   <Heading color="#1A2233" as={"h1"} fontSize={7} pt={5} pb={3}>
