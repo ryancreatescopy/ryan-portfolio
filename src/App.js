@@ -82,7 +82,7 @@ const App = () => {
                 >
                   <Text
                     mt="-24px"
-                    fontSize={[1, 2]}
+                    fontSize={["18px", "16px"]}
                     pb={[3, "40px"]}
                   >
                   Responsible for content and UX on the team, I:
@@ -106,7 +106,7 @@ const App = () => {
                   extendedDescription="Working closely with other designers in the organisation, I designed and documented design tokens, components and patterns for Codefi products to use. I also worked closely with stakeholders to:">
                   <Text
                     mt="-24px"
-                    fontSize={[1, 2]}
+                    fontSize={["18px", "16px"]}
                     pb={[3, "40px"]}
                   >
                   <ul>

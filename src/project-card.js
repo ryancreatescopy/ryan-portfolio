@@ -35,20 +35,20 @@ const ProjectCard = ({ company, roles, description, extendedDescription, childre
             {company}
           </Text>
           <Text
-            fontSize={[2, 5]}
+            fontSize={[3, 5]}
             pb={4}
           >
             {roles}
           </Text>
           <Text
-            fontSize={[1, 2]}
+            fontSize={["18px", "16px"]}
             fontWeight={3}
             pb={[3, "24px"]}
           >
           {description}
           </Text>
           <Text
-            fontSize={[1, 2]}
+            fontSize={["18px", "16px"]}
             pb={[4,"40px"]}
           >
             {extendedDescription}
