@@ -1,13 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import { BaseStyles, theme } from "rimble-ui";
-import { ThemeProvider } from "styled-components";
-import { Box, Button, Card, Flex, Text, Flash, Heading, Image } from "rimble-ui";
+import { Box, Button, Flex, Text, Heading, Image } from "rimble-ui";
 import { ArrowForward } from '@rimble/icons';
 import Container from "./container";
-import Container2 from "./container2";
-import ProjectCard from "./project-card";
-import { Home } from '@rimble/icons';
 import {
   BrowserRouter as Router,
   Switch,
@@ -189,7 +183,7 @@ const CodefiCS = () => {
                 color="text"
                 fontWeight={"bold"}
               >
-                Design speed went through the roof 🚀
+                Design speed went through the roof <span role="img" aria-label="rocket emoji">🚀</span>
               </Text>
               <Text fontSize={["20px", "24px"]} mt="64px" color="#1A2233">
                 The product we chose to focus on for the design system is making great strides. As a process-heavy product, the work we did on form elements and inputs meant the designer was freer to work on making that as easy an experience as possible rather than building UIs for forms.
@@ -298,7 +292,7 @@ const CodefiCS = () => {
               color="text"
               fontWeight={"bold"}
             >
-              Corona won 👾
+              Corona won <span role="img" aria-label="alien monster emoji">👾</span>
             </Text>
             <Text fontSize={["20px", "24px"]} mt="64px" color="#1A2233">
               The design systems team was cut as part of Corona-related layoffs. So unfortunately I can’t talk about any results.
@@ -311,7 +305,7 @@ const CodefiCS = () => {
           </Container>
           <hr color="#DFE0E5" />
           <Box textAlign="center" p="32px" mb={["80px", "80px", "80px", "0"]}>
-            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top 👆</RimbleLink>
+            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top <span role="img" aria-label="point up emoji">👆</span></RimbleLink>
           </Box>
         </Box>
     </Box>

@@ -1,13 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import { BaseStyles, theme } from "rimble-ui";
-import { ThemeProvider } from "styled-components";
-import { Box, Button, Card, Flex, Text, Flash, Heading, Image } from "rimble-ui";
+import { Box, Button, Flex, Text, Heading, Image } from "rimble-ui";
 import { ArrowForward } from '@rimble/icons';
 import Container from "./container";
-import Container2 from "./container2";
-import ProjectCard from "./project-card";
-import { Home } from '@rimble/icons';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,7 +15,6 @@ import CodefiCS from "./codefi-cs"
 import DeliverooCS from "./deliveroo-cs"
 import Label from "./cs-components/label"
 import Caption from "./cs-components/caption"
-import Images from "./cs-components/images"
 import Contact from "./contact"
 
 const BoxtCS = () => {
@@ -197,7 +190,7 @@ const BoxtCS = () => {
                 color="text"
                 fontWeight={"bold"}
               >
-                Conversion hits highs of over 2% 📈
+                Conversion hits highs of over 2% <span role="img" aria-label="chart with upwards trend emoji">📈</span>
               </Text>
               <Text fontSize={["20px", "24px"]} mt="64px" color="#1A2233">
                 These changes plus some other initiatives such as revamping the product emails and introducing referral programs led to a 2% increase in conversion from site visitors. This project was a great experience in making design decisions based on data and using experiments and qualitative testing as part of the design process.
@@ -208,7 +201,7 @@ const BoxtCS = () => {
         </Box>
           <hr color="#DFE0E5" />
           <Box textAlign="center" p="32px" mb={["80px", "80px", "80px", "0"]}>
-            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top 👆</RimbleLink>
+            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top <span role="img" aria-label="point up emoji">👆</span></RimbleLink>
           </Box>
         </Box>
   </Route>

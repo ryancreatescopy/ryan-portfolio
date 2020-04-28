@@ -1,13 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import { BaseStyles, theme } from "rimble-ui";
-import { ThemeProvider } from "styled-components";
-import { Box, Button, Card, Flex, Text, Flash, Heading, Image } from "rimble-ui";
+import { Box, Button, Flex, Text, Heading, Image } from "rimble-ui";
 import { ArrowForward } from '@rimble/icons';
 import Container from "./container";
-import Container2 from "./container2";
-import ProjectCard from "./project-card";
-import { Home } from '@rimble/icons';
 import {
   BrowserRouter as Router,
   Switch,
@@ -21,7 +15,6 @@ import CodefiCS from "./codefi-cs"
 import BoxtCS from "./boxt-cs"
 import Label from "./cs-components/label"
 import Caption from "./cs-components/caption"
-import Images from "./cs-components/images"
 import Contact from "./contact"
 
 const DeliverooCS = () => {
@@ -240,7 +233,7 @@ const DeliverooCS = () => {
                 color="text"
                 fontWeight={"bold"}
               >
-                Launch in Germany on time and 100% legal 🚓
+                Launch in Germany on time and 100% legal <span role="img" aria-label="police car emoji">🚓</span>
               </Text>
               <Text fontSize={["20px", "24px"]} mt="64px" color="#1A2233">
                 It was a great project for figuring out how to best balance business requirements and user needs. It was also a great example for how product designers, content designers and researchers should collaborate on solving a highly complex problem. It was great working on a project where we got so much research support. I left Deliveroo for ConsenSys shortly after launch but I’m certain this product will be having really positive effects on Deliveroo’s bottom line.
@@ -251,7 +244,7 @@ const DeliverooCS = () => {
         </Box>
           <hr color="#DFE0E5" />
           <Box textAlign="center" p="32px" mb={["80px", "80px", "80px", "0"]}>
-            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top 👆</RimbleLink>
+            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top <span role="img" aria-label="point up emoji">👆</span></RimbleLink>
           </Box>
         </Box>
   </Route>

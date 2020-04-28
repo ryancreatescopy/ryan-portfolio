@@ -1,13 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import { BaseStyles, theme } from "rimble-ui";
-import { ThemeProvider } from "styled-components";
-import { Box, Button, Card, Flex, Text, Flash, Heading, Image } from "rimble-ui";
+import { Box, Button, Flex, Text, Heading, Image } from "rimble-ui";
 import { ArrowForward } from '@rimble/icons';
 import Container from "./container";
-import Container2 from "./container2";
-import ProjectCard from "./project-card";
-import { Home } from '@rimble/icons';
 import {
   BrowserRouter as Router,
   Switch,
@@ -159,7 +153,7 @@ const RimbleCS = () => {
                 color="text"
                 fontWeight={"bold"}
               >
-              Better documentation, better docs site 📑
+              Better documentation, better docs site <span role="img" aria-label="documents emoji">📑</span>
               </Text>
               <Text fontSize={["20px", "24px"]} mt="64px" color="#1A2233">
                 Our new docs site allowed authors to combine Markdown and React so you could provide guidance in context with the component you were showing. I could now bring our docs strategy to life by creating documentation complete with usage guidelines, design guidance and more.
@@ -340,7 +334,7 @@ const RimbleCS = () => {
               color="text"
               fontWeight={"bold"}
             >
-              One-stop design shop for Ethereum 🏪
+              One-stop design shop for Ethereum <span role="img" aria-label="convenience store emoji">🏪</span>
             </Text>
             <Text fontSize={["20px", "24px"]} mt="64px" color="#1A2233">
               Rimble is now a one-stop design shop for anyone building front ends in the Ethereum space.   It’s an open-source library of:
@@ -373,7 +367,7 @@ const RimbleCS = () => {
           </Container>
           <hr color="#DFE0E5" />
           <Box textAlign="center" p="32px" mb={["80px", "80px", "80px", "0"]}>
-            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top 👆</RimbleLink>
+            <RimbleLink as="a" color="#4F53DB" href="#top">Back to top <span role="img" aria-label="point up emoji">👆</span></RimbleLink>
           </Box>
         </Box>
     </Box>
