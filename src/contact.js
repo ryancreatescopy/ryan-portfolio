@@ -1,13 +1,7 @@
 import React from 'react';
-import logo from './logo.svg';
-import { BaseStyles, theme } from "rimble-ui";
-import { ThemeProvider } from "styled-components";
-import { Box, Button, Card, Flex, Text, Flash, Heading, Image } from "rimble-ui";
+import { Box, Button, Flex, Text, Heading, Image } from "rimble-ui";
 import { ArrowForward } from '@rimble/icons';
 import Container from "./container";
-import Container2 from "./container2";
-import ProjectCard from "./project-card";
-import { Home } from '@rimble/icons';
 import {
   BrowserRouter as Router,
   Switch,
@@ -20,9 +14,6 @@ import RimbleCS from "./rimble-cs"
 import CodefiCS from "./codefi-cs"
 import BoxtCS from "./boxt-cs"
 import DeliverooCS from "./deliveroo-cs"
-import Label from "./cs-components/label"
-import Caption from "./cs-components/caption"
-import Images from "./cs-components/images"
 
 const Contact = () => {
   return (

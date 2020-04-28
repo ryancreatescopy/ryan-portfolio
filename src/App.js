@@ -1,9 +1,6 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-import { BaseStyles, theme } from "rimble-ui";
-import { ThemeProvider } from "styled-components";
-import { Box, Button, Card, Flex, Text, Flash, Heading, Image } from "rimble-ui";
+import { Box, Button, Flex, Text, Heading, Image } from "rimble-ui";
 import { ArrowForward } from '@rimble/icons';
 import Container from "./container";
 import Container2 from "./container2";
@@ -31,7 +28,7 @@ const App = () => {
             <Flex alignItems="center" justifyContent="space-between" flexDirection={["column", "row"]} width="100%" py={4}>
               <Flex alignItems="center">
                 <Text ml={[0, 4]} mb={[2, 0]} color="text">
-                👋 <strong>Ryan Cordell</strong>, Lead Content Designer
+                <span role="img" aria-label="wave emoji">👋</span> <strong>Ryan Cordell</strong>, Lead Content Designer
                 </Text>
               </Flex>
               <Flex>
@@ -483,7 +480,7 @@ const App = () => {
                 <Flex alignContent="center">
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize={["32px", "40px"]}fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Figma</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Figma</Text>
                     <Text fontSize={3}>For collaborating with designers, prototyping and getting engineering feedback on early-stage designs.</Text>
                   </Flex>
                 </Flex>

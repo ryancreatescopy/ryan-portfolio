@@ -1,6 +1,5 @@
 import React from "react";
-import { Box, Flex, Text, Image, Button, Card } from "rimble-ui";
-import { ArrowForward } from '@rimble/icons';
+import { Flex, Text, Image, Card } from "rimble-ui";
 
 const ProjectCard = ({ company, roles, description, extendedDescription, children, imageSrc, topPosition, bottomPosition }) => {
   return (
