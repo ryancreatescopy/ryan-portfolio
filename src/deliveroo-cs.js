@@ -79,26 +79,26 @@ const DeliverooCS = () => {
       <Container>
           <Box>
             <Flex justifyContent="center">
-              <Heading color="#1A2233" as={"h1"} fontSize={7} mt={5} mb="40px">
+              <Heading color="#1A2233" as={"h1"} fontSize={[5, 7]} mt={[4, 5]} mb={["32px", "40px"]}>
                 Serving up a new tool for  Deliveroo restaurants
               </Heading>
             </Flex>
             <Flex justifyContent="center">
-              <Text color="#475166" fontSize={5} mb={6}>Deliveroo needed a way to cut business costs and give their restaurant partners more control. Throw in an impending legal deadline and you’ve got a recipe for heaps of learnings.</Text>
+              <Text color="#475166" fontSize={["24px", "40px"]} mb={[5, 6]}>Deliveroo needed a way to cut business costs and give their restaurant partners more control. Throw in an impending legal deadline and you’ve got a recipe for heaps of learnings.</Text>
             </Flex>
           </Box>
           <Label color="#9498F7" label="PROBLEM" />
           <Heading
             as={"h4"}
             fontWeight={3}
-            fontSize="40px"
+            fontSize={["32px", "40px"]}
             mb={3}
             mt={5}
           >
             Menus = money
           </Heading>
           <Text
-            fontSize="24px"
+            fontSize={["20px", "24px"]}
             color="text"
             mb={6}
 
@@ -110,11 +110,11 @@ const DeliverooCS = () => {
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Get to know our users</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Get to know our users</Text>
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   Working with design research, a product designer, design researcher and I carried out 15 user interviews to really identify who are restaurant users were. We managed to split them into the following groups:
                 </Text>
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                   <ul>
                     <li><strong>Central management</strong> – typically technically skilled staff with financial responsibility but little involvement in the day-to-day</li>
                     <li><strong>Small business owner</strong> – sole or part business owner with limited involvement in day-to-day but are financially liable</li>
@@ -122,7 +122,7 @@ const DeliverooCS = () => {
                     <li><strong>General manager</strong> – staff member, employed to run business day-to-day and is financially responsible</li>
                   </ul>
                 </Text>
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                   Not forgetting our internal users: our account managers and partner sevice reps who were measured on the speed and quality of their menu edits. We needed to make our solution helped them too.
                 </Text>
                 </Flex>
@@ -130,15 +130,15 @@ const DeliverooCS = () => {
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Documenting as we went</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Documenting as we went</Text>
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   Any insights we gained from our interviews plus any early exploration was documented in our design doc. This was a shared source of truth for anyone working on the solution. This helped keep designers and stakeholders aligned.
                 </Text>
                 <Image mt="40px" src="/cs-images/design-doc.gif" />
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                   If you want to know more, Deliveroo’s design team wrote about {''}
                   <RimbleLink
-                    fontSize="24px"
+                    fontSize={["20px", "24px"]}
                     fontWeight={2}
                     color="#4F53DB"
                     href="https://medium.com/deliveroo-design/the-power-of-the-design-doc-fbf5070163f8"
@@ -152,17 +152,17 @@ const DeliverooCS = () => {
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Kicking things off with conversation</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Kicking things off with conversation</Text>
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   The product designer and I wanted to create the most natural experience for restaurants to make their menu changes, so I thought we should try conversational design. This is a process whereby you script out an interaction before designing it to identify the content you need and any edge cases. It’s a great, cost-effective way to start prototyping with real content.
                 </Text>
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                   The designer pretended to be Deliveroo while I played the part of the restaurant. It helped us to identify some important content for the first iterations of the product and remove Deliveroo jargon in the process.
                 </Text>
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                   I explain this in more detail in my {''}
                   <RimbleLink
-                    fontSize="24px"
+                    fontSize={["20px", "24px"]}
                     fontWeight={2}
                     color="#4F53DB"
                     href="https://rimble.consensys.design/guides/content/conversational-design"
@@ -178,8 +178,8 @@ const DeliverooCS = () => {
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>First time in Figma</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>First time in Figma</Text>
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   We took our conversation script and turned that into screens in Figma using the Delivero design system. The product designer and I riffed on the design a lot in Figma. It was Deliveroo’s first project to use Figma and we were massively enjoying the collaborative benefits.
                 </Text>
                 <Image mt="40px" src="/cs-images/Figma.gif" />
@@ -197,8 +197,8 @@ const DeliverooCS = () => {
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Usability testing</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Usability testing</Text>
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   We took our prototype to restaurants and account managers in 3 markets: UK, Germany and Italy. We designed a series of tasks for users to do so we could see how well the current iteration performed. The testing had mixed results but gave us some incredible ideas to work on back in London. Specifically doubling down on bulk actions and creating a view that allows the restaurant to edit the menu as it appears on Deliveroo, separate from a more process-focused UI for internal Deliveroo users who are managing 100s of menus.
                 </Text>
                 <Image mt="40px" src="/cs-images/testing-findings.png" />
@@ -210,14 +210,14 @@ const DeliverooCS = () => {
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>The food safety curveball</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>The food safety curveball</Text>
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   While we were working on this project, the law in Germany was changing around displaying allergens in online food apps. Restaurants had to either add allergen information to their menu themselves or approve allergen information added by Deliveroo. We had to pivot to focus purely on managing this food safety information.
                 </Text>
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                   One insight we’d got from our usability testing was that account managers were really good at Google sheets. This was how they were currently doing their menu work.
                 </Text>
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                   So we set about designing a solution that met them in the tools they were already using. We designed a feature that allowed them to update the food safety information in a Google sheet and send to the restaurant for approval. I wrote the steps to help our users get this done.
                 </Text>
                 <Image mt="40px" src="/cs-images/food-safety.png" />
@@ -235,14 +235,14 @@ const DeliverooCS = () => {
               <Label color="#69BFA0" label="RESULT" />
               <Text
                 mt="64px"
-                fontSize="64px"
-                lineHeight="80px"
+                fontSize={["40px", "64px"]}
+                lineHeight={["48px","80px"]}
                 color="text"
                 fontWeight={"bold"}
               >
                 Launch in Germany on time and 100% legal 🚓
               </Text>
-              <Text fontSize="24px" mt="64px" color="#1A2233">
+              <Text fontSize={["20px", "24px"]} mt="64px" color="#1A2233">
                 It was a great project for figuring out how to best balance business requirements and user needs. It was also a great example for how product designers, content designers and researchers should collaborate on solving a highly complex problem. It was great working on a project where we got so much research support. I left Deliveroo for ConsenSys shortly after launch but I’m certain this product will be having really positive effects on Deliveroo’s bottom line.
               </Text>
               <Image mt="64px" src="/cs-images/menus-final.png" />
