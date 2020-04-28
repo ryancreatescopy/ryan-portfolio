@@ -52,7 +52,7 @@ const Contact = () => {
           </Container>
             <Container>
                 <Box pl={["0", "56px"]}>
-                  <Heading as={"h2"} pt={5} pb={3} fontSize="40px">
+                  <Heading as={"h2"} pt={5} pb={3} fontSize={["32px", "40px"]}>
                     Get in touch
                   </Heading>
                   <Text fontSize={4} pb={5}>
@@ -63,52 +63,52 @@ const Contact = () => {
                   <Flex>
                     <ArrowForward color="#777C8C" size="40px" mr={3}/>
                     <Flex justifyContent="center" flexDirection="column" pb="40px">
-                      <RimbleLink
-                        lineHeight={1}
-                        fontSize="40px"
-                        fontWeight={2}
-                        color="#4F53DB"
-                        href="https://twitter.com/ryancreatescopy"
-                        target="_blank"
-                        as="a"
-                         mb={2}
-                      >
-                        @ryancreatescopy↗
-                      </RimbleLink>
-                    </Flex>
+                    <RimbleLink
+                      lineHeight={["40px", 1]}
+                      fontSize={["24px", "40px"]}
+                      fontWeight={2}
+                      color="#4F53DB"
+                      href="https://twitter.com/ryancreatescopy"
+                      target="_blank"
+                      as="a"
+                      mb={[1, 2]}
+                    >
+                      @ryancreatescopy↗
+                    </RimbleLink>
                   </Flex>
-                  <Flex>
-                    <ArrowForward color="#777C8C" size="40px" mr={3}/>
-                    <Flex justifyContent="center" flexDirection="column" pb="40px">
-                      <RimbleLink
-                        lineHeight={1}
-                        fontSize="40px"
-                        fontWeight={2}
-                        color="#4F53DB"
-                        href="mailto:ryancordell92@gmail.com"
-                        target="_blank"
-                        mb={2}
-                        as="a"
-                      >
-                        ryancordell92@gmail.com↗
-                      </RimbleLink>
-                    </Flex>
+                </Flex>
+                <Flex>
+                  <ArrowForward color="#777C8C" size="40px" mr={3}/>
+                  <Flex justifyContent="center" flexDirection="column" pb="40px">
+                    <RimbleLink
+                      lineHeight={["40px", 1]}
+                      fontSize={["24px", "40px"]}
+                      fontWeight={2}
+                      color="#4F53DB"
+                      href="mailto:ryancordell92@gmail.com"
+                      as="a"
+                      target="_blank"
+                      mb={[1, 2]}
+                    >
+                      ryancordell92@gmail.com↗
+                    </RimbleLink>
                   </Flex>
-                  <Flex>
-                    <ArrowForward color="#777C8C" size="40px" mr={3}/>
-                    <Flex justifyContent="center" flexDirection="column" pb="40px">
-                      <RimbleLink
-                        lineHeight={1}
-                        fontSize="40px"
-                        fontWeight={2}
-                        color="#4F53DB"
-                        href="https://www.Linkedin.com/in/ryancordell1/"
-                        target="_blank"
-                        mb={2}
-                        as="a"
-                      >
-                        LinkedIn↗
-                      </RimbleLink>
+                </Flex>
+                <Flex>
+                  <ArrowForward color="#777C8C" size="40px" mr={3}/>
+                  <Flex justifyContent="center" flexDirection="column" pb="40px">
+                    <RimbleLink
+                      lineHeight={["40px", 1]}
+                      fontSize={["24px", "40px"]}
+                      fontWeight={2}
+                      color="#4F53DB"
+                      href="https://www.Linkedin.com/in/ryancordell1/"
+                      as="a"
+                      target="_blank"
+                      mb={[1, 2]}
+                    >
+                      LinkedIn↗
+                    </RimbleLink>
                     </Flex>
                   </Flex>
                 </Box>

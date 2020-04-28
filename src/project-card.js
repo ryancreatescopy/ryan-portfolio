@@ -18,7 +18,7 @@ const ProjectCard = ({ company, roles, description, extendedDescription, childre
         position={["relative", "relative"]}
         bottom={["4rem", "580px"]}
         left={["0", "360px"]}
-        width={["90%", "50%"]}
+        width={["96%", "50%"]}
         mx={"auto"}
         mt={4}
         mb={[1, 5]}
@@ -29,27 +29,27 @@ const ProjectCard = ({ company, roles, description, extendedDescription, childre
       >
         <Text
             fontWeight={4}
-            fontSize="40px"
+            fontSize={[4, "40px"]}
             pb={1}
           >
             {company}
           </Text>
           <Text
-            fontSize={5}
+            fontSize={[2, 5]}
             pb={4}
           >
             {roles}
           </Text>
           <Text
-            fontSize={2}
+            fontSize={[1, 2]}
             fontWeight={3}
-            pb="24px"
+            pb={[3, "24px"]}
           >
           {description}
           </Text>
           <Text
-            fontSize={2}
-            pb="40px"
+            fontSize={[1, 2]}
+            pb={[4,"40px"]}
           >
             {extendedDescription}
           </Text>
