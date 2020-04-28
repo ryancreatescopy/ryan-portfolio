@@ -200,38 +200,76 @@ const App = () => {
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <RimbleLink
-                      lineHeight={1}
-                      as="a"
-                      fontSize="40px"
-                      fontWeight={2}
-                      color="#4F53DB"
-                      href="https://www.figma.com/proto/3Ke9nkwhyYbBxHfkin5iT0/Devcon-V-Conversational-design-workshop?node-id=17%3A0&viewport=281%2C212%2C0.05299120396375656&scaling=min-zoom"
-                      target="_blank"
-                      mb={2}
+                  <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>
+                    Design better dApps with conversation
+                  </Text>
+                    <Text fontSize={3} mb={3}>Devcon V, Osaka, 2019</Text>
+                    <Flex>
+                      <RimbleLink
+                        lineHeight={1}
+                        as="a"
+                        fontSize="16px"
+                        fontWeight={2}
+                        mr={4}
+                        color="#4F53DB"
+                        href="https://www.figma.com/proto/3Ke9nkwhyYbBxHfkin5iT0/Devcon-V-Conversational-design-workshop?node-id=17%3A0&viewport=281%2C212%2C0.05299120396375656&scaling=min-zoom"
+                        target="_blank"
+                        mb={2}
 
-                    >
-                      Design better dApps with conversation↗
-                    </RimbleLink>
-                    <Text fontSize={3}>Devcon V, Osaka, 2019</Text>
+                      >
+                        Figma deck↗
+                      </RimbleLink>
+                      <RimbleLink
+                        lineHeight={1}
+                        as="a"
+                        fontSize="16px"
+                        fontWeight={2}
+                        color="#4F53DB"
+                        href="https://www.youtube.com/watch?v=ZDaTl8PI7CQ"
+                        target="_blank"
+                        mb={2}
+
+                      >
+                        Video↗
+                      </RimbleLink>
+                      </Flex>
                   </Flex>
                 </Flex>
                 <Flex alignContent="center">
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
+                  <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>
+                    The state of transaction states
+                  </Text>
+                    <Text fontSize={3} mb={3}>Devcon V, Osaka, 2019</Text>
+                    <Flex>
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize="16px"
                       fontWeight={2}
                       as="a"
                       color="#4F53DB"
                       href="https://www.figma.com/proto/dk6DlwfvXW4svJXPoH7m6e/Devcon-V-The-state-of-transaction-states?node-id=351%3A1&viewport=-23%2C418%2C0.015625&scaling=min-zoom"
                       target="_blank"
                       mb={2}
+                      mr={4}
                     >
-                      The state of transaction states↗
+                      Figma deck↗
                     </RimbleLink>
-                    <Text fontSize={3}>Devcon V, Osaka, 2019</Text>
+                    <RimbleLink
+                      lineHeight={1}
+                      fontSize="16px"
+                      fontWeight={2}
+                      as="a"
+                      color="#4F53DB"
+                      href="https://www.youtube.com/watch?v=ZDaTl8PI7CQ"
+                      target="_blank"
+                      mb={2}
+                    >
+                      Video↗
+                    </RimbleLink>
+
+                    </Flex>
                   </Flex>
                 </Flex>
                 <Flex>
@@ -251,9 +289,11 @@ const App = () => {
                 <Flex pb={5}>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column">
+                  <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>What is Content Design?</Text>
+                    <Text fontSize={3} mb={3}>MCE conference, Warsaw, 2018</Text>
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize="16px"
                       fontWeight={2}
                       color="#4F53DB"
                       as="a"
@@ -261,9 +301,8 @@ const App = () => {
                       target="_blank"
                       mb={2}
                     >
-                      What is Content Design?↗
+                      Video↗
                     </RimbleLink>
-                    <Text fontSize={3}>MCE conference, Warsaw, 2018</Text>
                   </Flex>
                 </Flex>
               </Box>
