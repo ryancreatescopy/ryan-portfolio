@@ -79,26 +79,26 @@ const BoxtCS = () => {
       <Container>
           <Box>
             <Flex justifyContent="center">
-              <Heading color="#1A2233" as={"h1"} fontSize={7} mt={5} mb="40px">
+              <Heading color="#1A2233" as={"h1"} fontSize={[5, 7]} mt={[4, 5]} mb={["32px", "40px"]}>
                 Using UX to shift more boilers for BOXT
               </Heading>
             </Flex>
             <Flex justifyContent="center">
-              <Text color="#475166" fontSize={5} mb={6}>BOXT wanted to improve their online conversion to 2% of site visitors with incremental improvements to the purchase flow UX.</Text>
+              <Text color="#475166" fontSize={["24px", "40px"]} mb={[5, 6]}>BOXT wanted to improve their online conversion to 2% of site visitors with incremental improvements to the purchase flow UX.</Text>
             </Flex>
           </Box>
           <Label color="#9498F7" label="PROBLEM" />
           <Heading
             as={"h4"}
             fontWeight={3}
-            fontSize="40px"
+            fontSize={["32px", "40px"]}
             mb={3}
             mt={5}
           >
             No one buys a boiler in the summer
           </Heading>
           <Text
-            fontSize="24px"
+            fontSize={["20px", "24px"]}
             color="text"
             mb={6}
 
@@ -110,8 +110,8 @@ const BoxtCS = () => {
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Heuristic review and data dive</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Heuristic review and data dive</Text>
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   I needed to understand where to make improvements so I did a best practice review and dug into the data to see where people were quitting the sales flow.
                 </Text>
                 <Box bg="#FBFBFC" mt="40px" p="24px">
@@ -119,16 +119,16 @@ const BoxtCS = () => {
                   <Image mt="24px" src="/cs-images/BOXT-data-pres2.png" />
                 </Box>
                 <Caption>Data-driven decisions we delivered back to stakeholders.</Caption>
-                <Text fontSize="24px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} color="#1A2233">
                   Through this I identified two areas for improvement:
                 </Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   <ul>
                     <li>the homepage – how might we get more people entering the sales funnel?</li>
                     <li>review order flow (after the user had selected a boiler)  – how might we minimise abandonment?</li>
                   </ul>
                 </Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   I took two slightly different approaches to exploring these design problems.
                 </Text>
                 </Flex>
@@ -136,16 +136,16 @@ const BoxtCS = () => {
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Google experiments</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Google experiments</Text>
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   For the homepage we decided to take a more data-led approach and conduct some testing. We brainstormed a series of improvements based on our heuristic review and impact mapped them to present a list of tasks to the product owner. They could then make a call about whether to tackle the meatier problems or the low hanging fruit.
                 </Text>
                 <Image mt="40px" src="/cs-images/boxt-impact-mapping.png" />
                 <Caption>All ideas were plotted on this matrix to identify low hanging fruit.</Caption>
-                <Text fontSize="24px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} color="#1A2233">
                   Next I worked with a data analyst to design some experiments like copy changes and the addition of new modules that we could set up using Google experiments. This allows you to make small HTML changes to a page and A/B or multivariate test with portions of your users.
                 </Text>
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                 We used a hypothesis canvas to ensure that we could identify stastical significance before making any changes for good.
                 </Text>
                 <Box bg="#FBFBFC" mt="40px" p="24px">
@@ -157,14 +157,14 @@ const BoxtCS = () => {
             <Flex>
               <ArrowForward color="#777C8C" size="40px" mr={3}/>
               <Flex justifyContent="center" flexDirection="column" pb="40px">
-                <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Prototyping and testing</Text>
-                <Text fontSize="24px" mt="24px" color="#1A2233">
+                <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Prototyping and testing</Text>
+                <Text fontSize={["20px", "24px"]} mt="24px" color="#1A2233">
                   For the review order flow we wanted to make more wholesale changes so I felt it would be better to carry out a more thorough design exploration. Our main insight we could derive from the data was that users were going back in the flow (presumably to check previously entered information). So I wanted to turn this 4 page flow (pick a boiler, pick a date, enter your address, enter your payment details) into a 1 page experience.
                 </Text>
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                   I led a crazy 8s sketching session to come up with initial ideas, then worked with the UI designer to turn our idea into a clickable prototype. I then tested it with a series of homeowners and landlords who own a boiler.
                 </Text>
-                <Text fontSize="24px" mt="40px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} mt="40px" color="#1A2233">
                   I used a highlighter test to help identify where the content was filling users with confidence about their purchase and where it was confusing them. And I also pitted a more conversational style of content against a more traditional read-only version of a form.
                 </Text>
                 <Box bg="#FBFBFC" mt="40px" p="24px">
@@ -175,7 +175,7 @@ const BoxtCS = () => {
                   <Image src="/cs-images/Boxt-testing-findings.png" />
                 </Box>
                 <Caption>Recommendations from testing delivered back to stakeholders.</Caption>
-                <Text fontSize="24px" color="#1A2233">
+                <Text fontSize={["20px", "24px"]} color="#1A2233">
                   In the end, the traditional read-only form won out as the clearer option. Our one page design, created in 2017 is still live in some updated colors and with the friendly addition of a Meet your installer step.
                 </Text>
                 <Box bg="#FBFBFC" mt="40px" p="24px">
@@ -192,14 +192,14 @@ const BoxtCS = () => {
               <Label color="#69BFA0" label="RESULT" />
               <Text
                 mt="64px"
-                fontSize="64px"
-                lineHeight="80px"
+                fontSize={["40px", "64px"]}
+                lineHeight={["48px","80px"]}
                 color="text"
                 fontWeight={"bold"}
               >
                 Conversion hits highs of over 2% 📈
               </Text>
-              <Text fontSize="24px" mt="64px" color="#1A2233">
+              <Text fontSize={["20px", "24px"]} mt="64px" color="#1A2233">
                 These changes plus some other initiatives such as revamping the product emails and introducing referral programs led to a 2% increase in conversion from site visitors. This project was a great experience in making design decisions based on data and using experiments and qualitative testing as part of the design process.
               </Text>
               <Image mt="64px" src="/cs-images/Boxt-too-good.png" />

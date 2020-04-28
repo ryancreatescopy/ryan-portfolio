@@ -14,7 +14,7 @@ const Label = ({ color, label }) => {
       boxShadow="0px 12px 24px rgba(0, 0, 0, 0.1)"
     >
       <Heading as={"h3"}
-        fontSize="40px"
+        fontSize={["32px","40px"]}
         fontWeight={4}
         color="white"
       >

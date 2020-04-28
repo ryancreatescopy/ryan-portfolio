@@ -53,12 +53,12 @@ const App = () => {
               <Box pt={5}>
                   <Image mt={5} src="/portfolio-header-image.jpg" />
                 <Flex justifyContent="center">
-                  <Heading color="#1A2233" as={"h1"} fontSize={7} pt={[4, 5]} pb={3}>
+                  <Heading color="#1A2233" as={"h1"} fontSize={[6, 7]} pt={[4, 5]} pb={3}>
                     Hi I’m Ryan, content designer and doer
                   </Heading>
                 </Flex>
                 <Flex justifyContent="center">
-                  <Text color="#475166" fontSize={5} pb={5}>I use words to make sure experiences solve user needs. I’m into complex problems, design systems and teaching folks how to design better content. </Text>
+                  <Text color="#475166" fontSize={[4, 5]} pb={5}>I use words to make sure experiences solve user needs. I’m into complex problems, design systems and teaching folks how to design better content. </Text>
                 </Flex>
               </Box>
             </Box>
@@ -66,7 +66,7 @@ const App = () => {
               <hr color="#DFE0E5" />
             <Container>
               <Box>
-                <Heading as={"h2"} pt={5} pb={5} fontSize="40px">
+                <Heading as={"h2"} pt={5} pb={5} fontSize={["32px", "40px"]}>
                   Work
                 </Heading>
               </Box>
@@ -82,8 +82,8 @@ const App = () => {
                 >
                   <Text
                     mt="-24px"
-                    fontSize={2}
-                    pb="40px"
+                    fontSize={[1, 2]}
+                    pb={[3, "40px"]}
                   >
                   Responsible for content and UX on the team, I:
                   <ul>
@@ -93,8 +93,8 @@ const App = () => {
                     <li>wrote long-form guides</li>
                   </ul>
                   </Text>
-                  <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/RimbleCS"><Button size="large" borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study <ArrowForward color="#9498F7" size="24px" /></Button></Link>
-                  <Button.Outline size="large" as="a" href="https://rimble.consensys.design" mainColor="text" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble↗</Button.Outline>
+                  <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/RimbleCS"><Button size={["medium", "large"]} borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study</Button></Link>
+                  <Button.Outline size={["medium", "large"]} as="a" href="https://rimble.consensys.design" mainColor="text" borderRadius="16px" border={1} borderWidth="2px" borderColor="#9498F7">Check out Rimble↗</Button.Outline>
                 </ProjectCard>
                 <ProjectCard
                   topPosition={["0", "-32rem"]}
@@ -106,15 +106,15 @@ const App = () => {
                   extendedDescription="Working closely with other designers in the organisation, I designed and documented design tokens, components and patterns for Codefi products to use. I also worked closely with stakeholders to:">
                   <Text
                     mt="-24px"
-                    fontSize={2}
-                    pb="40px"
+                    fontSize={[1, 2]}
+                    pb={[3, "40px"]}
                   >
                   <ul>
                     <li>get buy-in for the design system </li>
                     <li>design our team’s processes and workflows</li>
                   </ul>
                   </Text>
-                  <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/CodefiCS"><Button size="large" borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study <ArrowForward color="#9498F7" size="24px" /></Button></Link>
+                  <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/CodefiCS"><Button size={["medium", "large"]} borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study </Button></Link>
                 </ProjectCard>
                 <ProjectCard
                   topPosition={["0", "-32rem"]}
@@ -124,7 +124,7 @@ const App = () => {
                   roles="Content design, UX"
                   description="Deliveroo is a food delivery product that lets you deliver your favourite restaurant’s food to your door. I led content design on the restaurants team, the folks responsible for building products for the restaurant managers."
                   extendedDescription="We were tasked with creating a tool that allowed restaurants to manage their own menu content. After countless iterations, some intense design collaboration and some vital research in our European markets, we built a highly flexible product that saved restaurants time and Deliveroo millions of pounds in outsourced menu creation/editing.">
-                  <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/DeliverooCS"><Button size="large" borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study <ArrowForward color="#9498F7" size="24px" /></Button></Link>
+                  <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/DeliverooCS"><Button size={["medium", "large"]} borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study </Button></Link>
                 </ProjectCard>
                 <ProjectCard
                   topPosition={["0", "-32rem"]}
@@ -134,14 +134,14 @@ const App = () => {
                   roles="Content design, UX"
                   description="BOXT is a boiler delivery and installation startup that has seriously shaken up the heating industry in the UK. After the agency I worked for at the time had built their MVP, I joined the team to supercharge their sales funnel with some UX and content design improvements. "
                   extendedDescription="Working closely with UI designers and developers, I identified, tested and built several improvements to key parts of the buying flow. This increased their sales even with summer fast approaching, a usually quiet time in this particular market.">
-                  <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/BoxtCS"><Button size="large" borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study <ArrowForward color="#9498F7" size="24px" /></Button></Link>
+                  <Link style={{ color: 'inherit', textDecoration: 'inherit'}} to="/BoxtCS"><Button size={["medium", "large"]} borderRadius="16px" mb={3} mr={3} mainColor="#1A2233">Read case study</Button></Link>
                 </ProjectCard>
               </Container2>
               </section>
               <hr color="#DFE0E5" />
               <Container>
                 <Box pl={["0", "56px"]}>
-                <Heading as={"h2"} pt={5} pb={5} fontSize="40px">
+                <Heading as={"h2"} pt={5} pb={5} fontSize={["32px", "40px"]}>
                   Interests
                 </Heading>
               </Box>
@@ -149,35 +149,35 @@ const App = () => {
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Content-first design</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Content-first design</Text>
                     <Text fontSize={3}>Designing for the content your user needs rather than fitting content into a pre-determined design.</Text>
                   </Flex>
                 </Flex>
                 <Flex alignContent="center">
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Design systems</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Design systems</Text>
                     <Text fontSize={3}>Systemising content design decisions but also the entire notion of making designers think less about stuff that’s already been solved and more about what’s new to solve</Text>
                   </Flex>
                 </Flex>
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Blockchain UX problems</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Blockchain UX problems</Text>
                     <Text fontSize={3}>Continuing to push blockchain product usability as far as the tech will allow us.</Text>
                   </Flex>
                 </Flex>
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Design education</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Design education</Text>
                     <Text fontSize={3}>Fighting the good fight and making sure folks understand the value in content design and design in general – especially interesting in the engineer-dominated blockchain space.</Text>
                   </Flex>
                 </Flex>
                 <Flex pb={5}>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Open source</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Open source</Text>
                     <Text fontSize={3}>Sharing learnings and giving each other a helping hand.</Text>
                   </Flex>
                 </Flex>
@@ -186,7 +186,7 @@ const App = () => {
               <hr color="#DFE0E5" />
               <Container>
               <Box pl={["0", "56px"]}>
-                <Heading as={"h2"} pt={5} pb={3} fontSize="40px">
+                <Heading as={"h2"} pt={5} pb={3} fontSize={["32px", "40px"]}>
                   Speaking and writing
                 </Heading>
                 <Text fontSize={4} pb={5}>
@@ -200,7 +200,7 @@ const App = () => {
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                  <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>
+                  <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>
                     Design better dApps with conversation
                   </Text>
                     <Text fontSize={3} mb={3}>Devcon V, Osaka, 2019</Text>
@@ -238,7 +238,7 @@ const App = () => {
                 <Flex alignContent="center">
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                  <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>
+                  <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>
                     The state of transaction states
                   </Text>
                     <Text fontSize={3} mb={3}>Devcon V, Osaka, 2019</Text>
@@ -275,21 +275,21 @@ const App = () => {
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Design and Defi panel</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Design and Defi panel</Text>
                     <Text fontSize={3}>Decentralized Design, London, 2019</Text>
                   </Flex>
                 </Flex>
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Conversational design</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Conversational design</Text>
                     <Text fontSize={3}>Content Deli, London, 2018</Text>
                   </Flex>
                 </Flex>
                 <Flex pb={5}>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column">
-                  <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>What is Content Design?</Text>
+                  <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>What is Content Design?</Text>
                     <Text fontSize={3} mb={3}>MCE conference, Warsaw, 2018</Text>
                     <RimbleLink
                       lineHeight={1}
@@ -320,7 +320,7 @@ const App = () => {
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize={["32px", "40px"]}
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://kauri.io/writing-for-blockchain-wallet-signature-request-me/e46374ec0fbd4403ae9ea351580caa4d/a"
@@ -337,7 +337,7 @@ const App = () => {
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize={["32px", "40px"]}
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://media.consensys.net/what-ethereum-should-learn-from-libra-a-content-perspective-63428ab5ccef"
@@ -362,7 +362,7 @@ const App = () => {
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize={["32px", "40px"]}
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://medium.com/deliveroo-design/content-design-systems-need-you-82836afb4fe6?source=---------6-----------------"
@@ -379,7 +379,7 @@ const App = () => {
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize={["32px", "40px"]}
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://medium.com/figma-design/how-to-do-content-design-ux-writing-in-figma-d0e0ee77661e?source=---------7------------------"
@@ -387,7 +387,7 @@ const App = () => {
                       target="_blank"
                       mb={2}
                     >
-                      How to do content design / UX writing in Figma↗︎
+                      How to do content design / UX writing in Figma↗
                     </RimbleLink>
                   </Flex>
                 </Flex>
@@ -396,7 +396,7 @@ const App = () => {
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize={["32px", "40px"]}
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://medium.com/deliveroo-design/4-reasons-we-love-figma-at-deliveroo-7a6db84b5239?source=---------8------------------"
@@ -413,7 +413,7 @@ const App = () => {
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize={["32px", "40px"]}
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://uxdesign.cc/3-communication-theories-that-will-help-you-write-better-microcopy-and-make-better-products-4df25571ca6f?source=---------9------------------"
@@ -430,7 +430,7 @@ const App = () => {
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize={["32px", "40px"]}
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://medium.com/swlh/my-6-point-microcopy-checklist-for-non-ux-writers-634eb52b29c9?source=---------11------------------"
@@ -447,7 +447,7 @@ const App = () => {
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
                     <RimbleLink
                       lineHeight={1}
-                      fontSize="40px"
+                      fontSize={["32px", "40px"]}
                       fontWeight={2}
                       color="#4F53DB"
                       href="https://uxplanet.org/ux-writing-and-the-customer-experience-wont-somebody-please-think-of-the-words-f7cdefa3793a?source=---------12------------------"
@@ -465,7 +465,7 @@ const App = () => {
               <hr color="#DFE0E5" />
               <Container>
                 <Box pl={["0", "56px"]}>
-                <Heading as={"h2"} pt={5} pb={3} fontSize="40px">
+                <Heading as={"h2"} pt={5} pb={3} fontSize={["32px", "40px"]}>
                   Tools
                 </Heading>
                 <Text fontSize={4} pb={5}>
@@ -476,35 +476,35 @@ const App = () => {
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Pen and paper</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Pen and paper</Text>
                     <Text fontSize={3}>For sketching designs. However in remote roles, I’ve tended to quickly mock things up in Figma or Whimsical.</Text>
                   </Flex>
                 </Flex>
                 <Flex alignContent="center">
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Figma</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]}fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Figma</Text>
                     <Text fontSize={3}>For collaborating with designers, prototyping and getting engineering feedback on early-stage designs.</Text>
                   </Flex>
                 </Flex>
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>GitHub</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>GitHub</Text>
                     <Text fontSize={3}>I use Github when on projects where I need to collaborate very closely with engineers. I prefer to create my own PRs to iterate on content directly in the product.</Text>
                   </Flex>
                 </Flex>
                 <Flex>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column" pb="40px">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Whimsical</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Whimsical</Text>
                     <Text fontSize={3}>For mapping out high level user flows.</Text>
                   </Flex>
                 </Flex>
                 <Flex pb={5}>
                   <ArrowForward color="#777C8C" size="40px" mr={3}/>
                   <Flex justifyContent="center" flexDirection="column">
-                    <Text lineHeight={1} fontSize="40px" color="#1A2233" mb={2}>Mural</Text>
+                    <Text lineHeight={1} fontSize={["32px", "40px"]} color="#1A2233" mb={2}>Mural</Text>
                     <Text fontSize={3}>For remote workshops and collaboration between non-designers.</Text>
                   </Flex>
                 </Flex>
@@ -514,7 +514,7 @@ const App = () => {
           <Box px={0} bg="#FBFBFC">
             <Container>
                 <Box pl={["0", "56px"]}>
-                  <Heading as={"h2"} pt={5} pb={3} fontSize="40px">
+                  <Heading as={"h2"} pt={5} pb={3} fontSize={["32px", "40px"]}>
                     Get in touch
                   </Heading>
                   <Text fontSize={4} pb={5}>
@@ -526,14 +526,14 @@ const App = () => {
                     <ArrowForward color="#777C8C" size="40px" mr={3}/>
                     <Flex justifyContent="center" flexDirection="column" pb="40px">
                       <RimbleLink
-                        lineHeight={1}
-                        fontSize="40px"
+                        lineHeight={["40px", 1]}
+                        fontSize={["24px", "40px"]}
                         fontWeight={2}
                         color="#4F53DB"
                         href="https://twitter.com/ryancreatescopy"
                         target="_blank"
                         as="a"
-                         mb={2}
+                        mb={[1, 2]}
                       >
                         @ryancreatescopy↗
                       </RimbleLink>
@@ -543,14 +543,14 @@ const App = () => {
                     <ArrowForward color="#777C8C" size="40px" mr={3}/>
                     <Flex justifyContent="center" flexDirection="column" pb="40px">
                       <RimbleLink
-                        lineHeight={1}
-                        fontSize="40px"
+                        lineHeight={["40px", 1]}
+                        fontSize={["24px", "40px"]}
                         fontWeight={2}
                         color="#4F53DB"
                         href="mailto:ryancordell92@gmail.com"
                         as="a"
                         target="_blank"
-                        mb={2}
+                        mb={[1, 2]}
                       >
                         ryancordell92@gmail.com↗
                       </RimbleLink>
@@ -560,14 +560,14 @@ const App = () => {
                     <ArrowForward color="#777C8C" size="40px" mr={3}/>
                     <Flex justifyContent="center" flexDirection="column" pb="40px">
                       <RimbleLink
-                        lineHeight={1}
-                        fontSize="40px"
+                        lineHeight={["40px", 1]}
+                        fontSize={["24px", "40px"]}
                         fontWeight={2}
                         color="#4F53DB"
                         href="https://www.Linkedin.com/in/ryancordell1/"
                         as="a"
                         target="_blank"
-                        mb={2}
+                        mb={[1, 2]}
                       >
                         LinkedIn↗
                       </RimbleLink>
