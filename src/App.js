@@ -401,7 +401,7 @@ const App = () => {
                           fontSize="16px"
                           fontWeight={2}
                           color="#4F53DB"
-                          href="https://www.youtube.com/watch?v=ZDaTl8PI7CQ"
+                          href="https://www.youtube.com/watch?v=dXrPDSoQ8TQ"
                           target="_blank"
                           mb={2}
                         >
