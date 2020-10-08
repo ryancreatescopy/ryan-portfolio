@@ -85,6 +85,22 @@ const App = () => {
                         folks how to design better content.{" "}
                       </Text>
                     </Flex>
+                    <Text color="#475166" fontSize={[2, 3]} pb={5}>
+                    <b>Current:</b> Lead Content Designer, <RimbleLink
+                    lineHeight={1}
+                    as="a"
+                    fontSize={[2, 3]}
+                    fontWeight={3}
+                    color="#4F53DB"
+                    href="https://ethereum.org">ethereum.org↗</RimbleLink><br />
+                    <b>Last:</b> Lead Content Strategist, <RimbleLink
+                    lineHeight={1}
+                    as="a"
+                    fontSize={[2, 3]}
+                    fontWeight={3}
+                    color="#4F53DB"
+                    href="https://community-development.makerdao.com">MakerDAO community development↗</RimbleLink>
+                  </Text>
                   </Box>
                 </Box>
               </Container>
@@ -363,6 +379,40 @@ const App = () => {
                   </Heading>
                 </Box>
                 <Box pb={5}>
+                <Flex>
+                <ArrowForward color="#777C8C" size="40px" mr={3} />
+                <Flex
+                  justifyContent="center"
+                  flexDirection="column"
+                  pb="40px"
+                >
+                  <Text
+                    lineHeight={1}
+                    fontSize={["32px", "40px"]}
+                    color="#1A2233"
+                    mb={2}
+                  >
+                    Introducing the ethereum.org developer portal
+                  </Text>
+                  <Text fontSize={3} mb={3}>
+                    ETHOnline, 2020
+                  </Text>
+                  <Flex>
+                    <RimbleLink
+                      lineHeight={1}
+                      as="a"
+                      fontSize="16px"
+                      fontWeight={2}
+                      color="#4F53DB"
+                      href="https://www.youtube.com/watch?v=CvRjBbsPpUY"
+                      target="_blank"
+                      mb={2}
+                    >
+                      Video↗
+                    </RimbleLink>
+                  </Flex>
+                </Flex>
+              </Flex>
                   <Flex>
                     <ArrowForward color="#777C8C" size="40px" mr={3} />
                     <Flex
