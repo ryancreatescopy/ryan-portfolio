@@ -43,7 +43,7 @@ const App = () => {
                       <span role="img" aria-label="wave emoji">
                         👋
                       </span>{" "}
-                      <strong>Ryan Cordell</strong>, Lead Content Designer
+                      <strong>Ryan Cordell</strong>, Staff Content Designer
                     </Text>
                   </Flex>
                   <Flex>
@@ -86,20 +86,20 @@ const App = () => {
                       </Text>
                     </Flex>
                     <Text color="#475166" fontSize={[2, 3]} pb={5}>
-                    <b>Current:</b> Lead Content Designer, <RimbleLink
+                    <b>Last:</b> Staff Content Designer, <RimbleLink
                     lineHeight={1}
                     as="a"
                     fontSize={[2, 3]}
                     fontWeight={3}
                     color="#4F53DB"
-                    href="https://ethereum.org">ethereum.org↗</RimbleLink><br />
-                    <b>Last:</b> Lead Content Strategist, <RimbleLink
+                    href="https://shopify.com">Shopify↗</RimbleLink><br />
+                    <b>Last:</b> Lead Content Designer, <RimbleLink
                     lineHeight={1}
                     as="a"
                     fontSize={[2, 3]}
                     fontWeight={3}
                     color="#4F53DB"
-                    href="https://community-development.makerdao.com">MakerDAO community development↗</RimbleLink>
+                    href="https://ethereum.org">ethereum.org↗</RimbleLink>
                   </Text>
                   </Box>
                 </Box>
